@@ -32,16 +32,16 @@
       "purpose": "any"
     },
     {
-      "src": "https://gbtwcoupon.jisby.com/images/logo/logo_1024x1024.png",
-      "type": "image/png",
-      "sizes": "1024x1024",
-      "purpose": "any"
-    },
-    {
       "src": "https://gbtwcoupon.jisby.com/images/logo/logo_1024x1024_mask.png",
       "type": "image/png",
       "sizes": "1024x1024",
       "purpose": "maskable"
+    },
+    {
+      "src": "https://gbtwcoupon.jisby.com/images/logo/logo_1024x1024.png",
+      "type": "image/png",
+      "sizes": "1024x1024",
+      "purpose": "any"
     }
   ],
   "screenshots" : [
