@@ -5,7 +5,7 @@
   "display": "standalone",
   "name": "건쉽배틀 쿠폰앱",
   "orientation": "any",
-  "scope": "/",
+  "scope": "https://gbtwcoupon.jisby.com/",
   "short_name": "건쉽배틀 쿠폰앱",
   "start_url": "https://gbtwcoupon.jisby.com/",
   "theme_color": "#f8f8f8",
@@ -14,9 +14,11 @@
   ],
   "icons": [
     {
-    "src": "images/logo.png",
+      "src": "images/logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
-  ]
+  ],
+  "prefer_related_applications": false,
+  "lang": "ko"
 }
