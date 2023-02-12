@@ -27,6 +27,13 @@
       "platform": "wide"
     }
   ],
+  "shortcuts": [
+    {
+      "name": "건쉽배틀 쿠폰앱",
+      "url": "https://gbtwcoupon.jisby.com/",
+      "description": "Gunship Battle Coupon App"
+    }
+  ],
   "prefer_related_applications": false,
   "lang": "ko"
 }
