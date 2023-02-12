@@ -17,25 +17,31 @@
       "src": "https://gbtwcoupon.jisby.com/images/logo/logo_1024x1024.png",
       "type": "image/png",
       "sizes": "128x128",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "https://gbtwcoupon.jisby.com/images/logo/logo_1024x1024.png",
       "type": "image/png",
       "sizes": "256x256",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "https://gbtwcoupon.jisby.com/images/logo/logo_1024x1024.png",
       "type": "image/png",
       "sizes": "512x512",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "https://gbtwcoupon.jisby.com/images/logo/logo_1024x1024.png",
       "type": "image/png",
       "sizes": "1024x1024",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "https://gbtwcoupon.jisby.com/images/logo/logo_1024x1024_mask.png",
+      "type": "image/png",
+      "sizes": "1024x1024",
+      "purpose": "maskable"
     }
   ],
   "screenshots" : [
