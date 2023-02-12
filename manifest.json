@@ -14,15 +14,15 @@
   ],
   "icons": [
     {
-      "src": "https://gbtwcoupon.jisby.com/images/logo/logo2.png",
+      "src": "https://gbtwcoupon.jisby.com/images/logo/logo_1024x1024_mask.png",
       "type": "image/png",
-      "sizes": "512x512",
+      "sizes": "1024x1024",
       "purpose": "any maskable"
     },
     {
-      "src": "https://gbtwcoupon.jisby.com/images/logo/logo.png",
+      "src": "https://gbtwcoupon.jisby.com/images/logo/logo_1024x1024.png",
       "type": "image/png",
-      "sizes": "512x512",
+      "sizes": "1024x1024",
       "purpose": "any"
     }
   ],
