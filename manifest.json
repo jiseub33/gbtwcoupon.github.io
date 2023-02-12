@@ -14,9 +14,17 @@
   ],
   "icons": [
     {
-      "src": "images/logo.png",
+      "src": "https://gbtwcoupon.jisby.com/images/logo/logo.png",
       "type": "image/png",
       "sizes": "512x512"
+    }
+  ],
+  "screenshots" : [
+    {
+      "src": "https://gbtwcoupon.jisby.https://gbtwcoupon.jisby.com/images/screenshots/1.jpg",
+      "sizes": "1080x2273",
+      "type": "image/jpg",
+      "platform": "wide"
     }
   ],
   "prefer_related_applications": false,
