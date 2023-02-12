@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>건쉽배틀 쿠폰앱</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+</head>
+<body>
+  <div class="maintitle">
+    <h1>
+        인터넷 연결이 없습니다.
+    </h1>
+    <p>
+        인터넷을 연결을 확인해주세요. <br>문제가 해결되지 않을시 카카오 "채널NAVY"로 문의주시면 도와드리겠습니다.
+    </p>
+  </div>
+  <script>
+    var btns = document.querySelectorAll('button');
+    var clipboard = new ClipboardJS(btns);
+    
+    clipboard.on('success', function(e) {
+      console.log(e);
+    });
+    
+    clipboard.on('error', function(e) {
+      console.log(e);
+    });
+  </script>
+  <style>
+    body {
+        position: relative;
+        height: 100vh;
+    }
+
+    div.maintitle {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    div.maintitle h1 {
+        font-size: 25px;
+    }
+
+    div.maintitle p {
+        font-size: 15px;
+    }
+  </style>
+</body>
+</html>
