@@ -1,0 +1,22 @@
+{
+  "background_color": "#ffffff",
+  "description": "Gunship Battle Coupon App",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "건쉽배틀 쿠폰앱",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "건쉽배틀 쿠폰앱",
+  "start_url": "https://gbtwcoupon.jisby.com/",
+  "theme_color": "#f8f8f8",
+  "categories": [
+    "games"
+  ],
+  "icons": [
+    {
+    "src": "images/logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
