@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    background: rgb(248, 248, 248);
+    line-height: 1;
+}
+
+div.maintitle {
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+
+    text-align: left;
+    padding: 20px 0;
+}
+
+.maintitle h1 {
+    margin: 80px 0 0 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.maintitle h1 span {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.maintitle p {
+    margin: 0;
+    padding: 15px 0 0 15px;
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.coupon {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.coupon div {
+    padding: 15px;
+    margin:0 0 20px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.coupon button {
+    display: block;
+    padding: 0;
+    margin: 0 0 10px 0;
+    width: 100%;
+    background: #fff;;
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 60px;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.coupon button h1 {
+    font-family: 'Gugi', cursive;
+    text-align: center;
+    vertical-align: top ;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #000;
+
+    background: #fff;
+}
+
+.coupon button:nth-last-child(1) {
+    margin: 0;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 10px;
+}

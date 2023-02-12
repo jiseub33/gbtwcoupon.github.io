@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>건쉽배틀 쿠폰앱</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="maintitle">
+    <h1>
+        건쉽배틀쿠폰앱
+    </h1>
+    <p>
+        last update 23/02/12
+    </p>
+  </div>
+  <div class="coupon">
+    <div>
+      <button data-clipboard-text="SAILING INTO FEB">SAILING INTO FEB</button>
+      <button data-clipboard-text="LUNAR NEW ME">LUNAR NEW ME</button>
+      <button data-clipboard-text="TY 4 GBTW X GIJ">TY 4 GBTW X GIJ</button>
+      <button data-clipboard-text="LAST CHANCE 4 COBRA">LAST CHANCE 4 COBRA</button>
+      <button data-clipboard-text="COLLECT GI JOE JH5F">COLLECT GI JOE JH5F</button>
+      <button data-clipboard-text="ALLIANCE FLEET MEET">ALLIANCE FLEET MEET</button>
+      <button data-clipboard-text="H0P IN2 2023">H0P IN2 2023</button>
+      <button data-clipboard-text="STRONG BLACK DRAGON">STRONG BLACK DRAGON</button>
+      <button data-clipboard-text="YOOOO JOE LETS GO">YOOOO JOE LETS GO</button>
+      <button data-clipboard-text="TWO DAYS TO GO JOE">TWO DAYS TO GO JOE</button>
+      <button data-clipboard-text="GEAR UP WITH GI JOE">GEAR UP WITH GI JOE</button>
+      <button data-clipboard-text="GI JOE RETURNS">GI JOE RETURNS</button>
+      <button data-clipboard-text="HAPPY GBTW 4TH ANNI">HAPPY GBTW 4TH ANNI</button>
+      <button data-clipboard-text="4 YRS U ROCK">4 YRS U ROCK</button>
+      <button data-clipboard-text="FLY RIGHT BY NOV">FLY RIGHT BY NOV</button>
+      <button data-clipboard-text="Now or Never BF22">Now or Never BF22</button>
+      <button data-clipboard-text="FEAST MODE THN6">FEAST MODE THN6</button>
+      <button data-clipboard-text="TY 4 UR SERVICE 9CQ">TY 4 UR SERVICE 9CQ</button>
+      <button data-clipboard-text="snooz u looz">snooz u looz</button>
+    </div>
+  </div> 
+  
+
+  <footer>
+    © 2020-2023 EON ALLIANCE X STUDIO JISBY. All Rights Reserved.
+  </footer>
+  <script>
+    var btns = document.querySelectorAll('button');
+    var clipboard = new ClipboardJS(btns);
+    
+    clipboard.on('success', function(e) {
+      console.log(e);
+    });
+    
+    clipboard.on('error', function(e) {
+      console.log(e);
+    });
+  </script>
+</body>
+</html>
