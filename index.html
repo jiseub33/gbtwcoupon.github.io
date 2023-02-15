@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <link rel="manifest" href="manifest.json" />
-  <title>건쉽배틀 쿠폰앱</title>
+  <title>홈ㅣ건쉽배틀 쿠폰앱</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <link rel="short cut icon" href="https://gbtwcoupon.jisby.com/images/logo/logo_256x256.png"> 
   <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/filter.css">
   <script type="module">
     import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
     const el = document.createElement('pwa-update');
@@ -15,41 +16,53 @@
  </script>
 </head>
 <body>
-  <div class="maintitle">
-    <h1>
-        건쉽배틀쿠폰앱
-    </h1>
-    <p>
+  <div class="title">
+    <div class="maintitle">
+      <svg id="C" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.03 83.37"><defs><style>.cls-1{fill:#0090f2;}</style></defs>
+        <path class="cls-1" d="M87.56,51.48H74.92c-2.15-3.83-7-6.76-13.27-6.76-9.35,0-16.3,7-16.3,16.63s6.95,16.82,16.3,16.82c8,0,13.59-5,14.79-10.06H60.7V58.29h28v3.06C88.7,77.09,77,88.62,61.4,88.62c-15.86,0-27.55-11.53-27.55-27.27S45.54,34.08,61.4,34.08C74.86,34.08,84.59,41.73,87.56,51.48Z" transform="translate(-19.75 -19.75)"/>
+      </svg>
+      <svg id="G" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.03 83.37"><defs><style>.cls-1{fill:#0090f2;}</style></defs>
+        <path class="cls-1" d="M88.66,75.89a30.82,30.82,0,1,1,1.74-25h11.38a41.69,41.69,0,1,0-1.23,25Z" transform="translate(-19.75 -19.75)"/>
+      </svg>
+        <h1>쿠폰모음</h1>
+    </div>
+    <p class="subtitle">
         last update 23/02/12
     </p>
   </div>
+  <a class="notice" href="">공지사항</a>
   <div class="coupon">
+    <input type="radio" id="all" name="filter" class="all" checked><label for="all" class="all">모든쿠폰</label>
+    <input type="radio" id="available" name="filter" class="available"><label for="available">사용가능쿠폰</label>
+    <input type="radio" id="unavailable" name="filter" class="unavailable"><label for="unavailable">사용불가능쿠폰</label>
     <div>
-      <button data-clipboard-text="SAILING INTO FEB">SAILING INTO FEB</button>
-      <button data-clipboard-text="LUNAR NEW ME">LUNAR NEW ME</button>
-      <button data-clipboard-text="TY 4 GBTW X GIJ">TY 4 GBTW X GIJ</button>
-      <button data-clipboard-text="LAST CHANCE 4 COBRA">LAST CHANCE 4 COBRA</button>
-      <button data-clipboard-text="COLLECT GI JOE JH5F">COLLECT GI JOE JH5F</button>
-      <button data-clipboard-text="ALLIANCE FLEET MEET">ALLIANCE FLEET MEET</button>
-      <button data-clipboard-text="H0P IN2 2023">H0P IN2 2023</button>
-      <button data-clipboard-text="STRONG BLACK DRAGON">STRONG BLACK DRAGON</button>
-      <button data-clipboard-text="YOOOO JOE LETS GO">YOOOO JOE LETS GO</button>
-      <button data-clipboard-text="TWO DAYS TO GO JOE">TWO DAYS TO GO JOE</button>
-      <button data-clipboard-text="GEAR UP WITH GI JOE">GEAR UP WITH GI JOE</button>
-      <button data-clipboard-text="GI JOE RETURNS">GI JOE RETURNS</button>
-      <button data-clipboard-text="HAPPY GBTW 4TH ANNI">HAPPY GBTW 4TH ANNI</button>
-      <button data-clipboard-text="4 YRS U ROCK">4 YRS U ROCK</button>
-      <button data-clipboard-text="FLY RIGHT BY NOV">FLY RIGHT BY NOV</button>
-      <button data-clipboard-text="Now or Never BF22">Now or Never BF22</button>
-      <button data-clipboard-text="FEAST MODE THN6">FEAST MODE THN6</button>
-      <button data-clipboard-text="TY 4 UR SERVICE 9CQ">TY 4 UR SERVICE 9CQ</button>
-      <button data-clipboard-text="snooz u looz">snooz u looz</button>
+      <button class="available" data-clipboard-text="SAILING INTO FEB">SWEET CHOCOLATE</button> <!-- 23-02-28 23:59 -->
+      <button class="available" data-clipboard-text="SAILING INTO FEB">BIG GAME GO TEAM</button>
+      <button class="available" data-clipboard-text="SAILING INTO FEB">SAILING INTO FEB</button>
+      <button class="available" data-clipboard-text="LUNAR NEW ME">LUNAR NEW ME</button>
+      <button class="available" data-clipboard-text="TY 4 GBTW X GIJ">TY 4 GBTW X GIJ</button>
+      <button class="available" data-clipboard-text="LAST CHANCE 4 COBRA">LAST CHANCE 4 COBRA</button>
+      <button class="available" data-clipboard-text="COLLECT GI JOE JH5F">COLLECT GI JOE JH5F</button>
+      <button class="available" data-clipboard-text="ALLIANCE FLEET MEET">ALLIANCE FLEET MEET</button>
+      <button class="available" data-clipboard-text="H0P IN2 2023">H0P IN2 2023</button>
+      <button class="available" data-clipboard-text="STRONG BLACK DRAGON">STRONG BLACK DRAGON</button>
+      <button class="available" data-clipboard-text="YOOOO JOE LETS GO">YOOOO JOE LETS GO</button>
+      <button class="unavailable" data-clipboard-text="TWO DAYS TO GO JOE">TWO DAYS TO GO JOE</button>
+      <button class="unavailable" data-clipboard-text="GEAR UP WITH GI JOE">GEAR UP WITH GI JOE</button>
+      <button class="unavailable" data-clipboard-text="GI JOE RETURNS">GI JOE RETURNS</button>
+      <button class="unavailable" data-clipboard-text="HAPPY GBTW 4TH ANNI">HAPPY GBTW 4TH ANNI</button>
+      <button class="unavailable" data-clipboard-text="4 YRS U ROCK">4 YRS U ROCK</button>
+      <button class="unavailable" data-clipboard-text="FLY RIGHT BY NOV">FLY RIGHT BY NOV</button>
+      <button class="unavailable" data-clipboard-text="Now or Never BF22">Now or Never BF22</button>
+      <button class="unavailable" data-clipboard-text="FEAST MODE THN6">FEAST MODE THN6</button>
+      <button class="unavailable" data-clipboard-text="TY 4 UR SERVICE 9CQ">TY 4 UR SERVICE 9CQ</button>
+      <button class="unavailable" data-clipboard-text="snooz u looz">snooz u looz</button>
     </div>
   </div> 
   
 
   <footer>
-    © 2020-2023 EON ALLIANCE X STUDIO JISBY. All Rights Reserved.
+    © 2020-2023 EON ALLIANCE. All Rights Reserved.
   </footer>
   <script>
     var btns = document.querySelectorAll('button');

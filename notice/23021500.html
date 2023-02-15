@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="manifest" href="manifest.json" />
+  <title>공지ㅣ건쉽배틀쿠폰앱</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="short cut icon" href="https://gbtwcoupon.jisby.com/images/logo/logo_256x256.png"> 
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+  <link rel="stylesheet" href="../css/notice-post.css">
+  <script type="module">
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+ </script>
+</head>
+<body>
+  <div class="title">
+    <div class="maintitle">
+      <svg id="C" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.03 83.37"><defs><style>.cls-1{fill:#0090f2;}</style></defs>
+        <path class="cls-1" d="M87.56,51.48H74.92c-2.15-3.83-7-6.76-13.27-6.76-9.35,0-16.3,7-16.3,16.63s6.95,16.82,16.3,16.82c8,0,13.59-5,14.79-10.06H60.7V58.29h28v3.06C88.7,77.09,77,88.62,61.4,88.62c-15.86,0-27.55-11.53-27.55-27.27S45.54,34.08,61.4,34.08C74.86,34.08,84.59,41.73,87.56,51.48Z" transform="translate(-19.75 -19.75)"/>
+      </svg>
+      <svg id="G" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.03 83.37"><defs><style>.cls-1{fill:#0090f2;}</style></defs>
+        <path class="cls-1" d="M88.66,75.89a30.82,30.82,0,1,1,1.74-25h11.38a41.69,41.69,0,1,0-1.23,25Z" transform="translate(-19.75 -19.75)"/>
+      </svg>
+        <h1>서비스 이용안내</h1>
+    </div>
+    <p class="subtitle">
+        2023년 02월 12일
+    </p>
+  </div>
+  <div class="post">
+    <div class="img-canvas">
+        <img src="../images/notice/230215/1.jpg" alt="">
+    </div>
+    <div class="maintext">
+        <p>현재 쿠폰서비스는 베타테스트 중입니다.
+            <br>사용 중 불편한 사항이나 오류는 <a href="https://pf.kakao.com/_mxhHSs">[채널 네이비]</a> 카카오채널로 연락주시면 감사하겠습니다.
+        </p>
+    </div>
+  </div>
+  <a class="home" href="../notice.html">목록보기</a>
+  <footer>
+    © 2020-2023 EON ALLIANCE. All Rights Reserved.
+  </footer>
+  <script>
+    var btns = document.querySelectorAll('button');
+    var clipboard = new ClipboardJS(btns);
+    
+    clipboard.on('success', function(e) {
+      console.log(e);
+    });
+    
+    clipboard.on('error', function(e) {
+      console.log(e);
+    });
+  </script>
+</body>
+</html>

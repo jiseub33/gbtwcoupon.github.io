@@ -1,0 +1,34 @@
+.coupon input.all:checked ~ div button {
+    display: block;
+    animation: all 1s ease;
+}
+
+.coupon input.available:checked ~ div button.available {
+    display: block;
+    animation: some 1s ease;
+}
+
+.coupon input.unavailable:checked ~ div button.unavailable {
+    display: block;
+    animation: some 1s ease;
+}
+
+@keyframes all {
+    0% {
+        transform: translateY(20%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes some {
+    0% {
+        transform: translateY(20%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
