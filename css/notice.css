@@ -143,10 +143,3 @@ svg:nth-child(1) {
     left: 20px;
     bottom: 20px;
 }
-
-footer {
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 10px;
-}

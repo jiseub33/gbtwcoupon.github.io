@@ -107,10 +107,3 @@ svg:nth-child(1) {
     line-height: 40px;
     text-decoration: none;
 }
-
-footer {
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 10px;
-}

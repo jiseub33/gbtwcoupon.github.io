@@ -136,10 +136,3 @@ svg:nth-child(1) {
 .coupon button:nth-last-child(1) {
     margin: 0;
 }
-
-footer {
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 10px;
-}
