@@ -1,4 +1,5 @@
 footer {
+    background: #0d65d9;
     text-align: center;
     font-size: 0;
 }
@@ -6,10 +7,15 @@ footer {
 footer img {
     margin: 10px auto;
     width: 100px;
+    background: #fff;
 }
 
 footer p {
-    margin: 10px auto;
+    padding: 10px;
+    margin: 0 auto;
     width: 100%;
+    box-sizing: border-box;
+    color: #fff;
     font-size: 10px;
+    font-weight: 700;
 }
