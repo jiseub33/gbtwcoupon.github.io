@@ -1,7 +1,58 @@
-@media (prefers-color-scheme: dark) {
-    body { background:  #000; color: #fff; }
+* {
+    transition: .25s all;
 }
 
-@media (prefers-color-scheme: light) {
-    body   { background: #fff; color:  #000; }
-  }
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background:  #141414;
+        color: #fff;
+    }
+
+    footer p {
+        color: #fff;
+    }
+
+    /* HOME */
+    .notice {
+        background: url("../images/icons/arrow-right-s-line-white.svg") no-repeat right 15px center, #1f1f1f;
+        color: #fff;
+    }
+
+    .coupon {
+        background: #1f1f1f;
+    }
+
+    .coupon label {
+        border: 1px solid #323232;
+        color: #fff;
+    }
+
+    .coupon  button { background: #1f1f1f;
+        border: 1px solid #323232;
+        color: #fff;
+    }
+
+    /* NOTICE */
+    .home {
+        background: url("../images/icons/arrow-right-s-line-white.svg") no-repeat right 15px center, #1f1f1f;
+        color: #fff;
+    }
+
+    .list ul li {
+        background: #1f1f1f;
+    }
+
+    .list ul li a .title p {
+        color: #fff;
+    }
+
+    .list ul li a .title h1 {
+        color: #fff;
+    }
+
+    /* NOTICE */
+    .post .maintext p {
+        color: #fff;
+    }
+}

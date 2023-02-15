@@ -107,6 +107,7 @@ svg:nth-child(1) {
     font-size: 15px;
     font-weight: 500;
     line-height: 15px;
+    transition: 1s all;
 }
 
 .coupon input:checked + label {
