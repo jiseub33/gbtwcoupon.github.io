@@ -19,6 +19,11 @@
         color: #fff;
     }
 
+    .add-button {
+        background: url("../images/icons/arrow-right-s-line-white.svg") no-repeat right 15px center, #1f1f1f;
+        color: #fff;
+    }
+
     .coupon {
         background: #1f1f1f;
     }
