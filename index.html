@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="css/filter.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/theme.css">
-  <script defer src="js/dark.js"></script>
+  <script defer src="js/theme.js"></script>
+  <script defer src="js/install.js"></script>
   <script type="module">
     import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
     const el = document.createElement('pwa-update');
@@ -34,12 +35,13 @@
     </p>
   </div>
   <a class="notice" href="notice">공지사항</a>
+  <button class="add-button">Add to home screen</button>
   <div class="coupon">
     <input type="radio" id="all" name="filter" class="all" checked><label for="all" class="all">ALL</label>
     <input type="radio" id="available" name="filter" class="available"><label for="available">사용가능</label>
     <input type="radio" id="unavailable" name="filter" class="unavailable"><label for="unavailable">기간만료</label>
     <div>
-      <button class="available" data-clipboard-text="SWEET CHOCOLATE">SWEET CHOCOLATE</button> <!-- 23-02-28 23:59 -->
+      <button class="available" data-clipboard-text="SWEET CHOCOLATE">SWEET CHOCOLATE</button> <!-- 23-2-28 23:59 -->
       <button class="available" data-clipboard-text="GET YOUR HEART ON">GET YOUR HEART ON</button> <!-- 23-03-31 23:59 -->
       <button class="available" data-clipboard-text="BIG GAME GO TEAM">BIG GAME GO TEAM</button> <!-- 23-03-31 23:59 -->
       <button class="available" data-clipboard-text="SAILING INTO FEB">SAILING INTO FEB</button> <!-- 23-03-31 23:59 -->
