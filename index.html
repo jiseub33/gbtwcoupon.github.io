@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/filter.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/theme.css">
+  <script defer src="js/hide.js"></script>
   <script defer src="js/theme.js"></script>
   <script defer src="js/active.js"></script>
   <script defer src="js/install.js"></script>
@@ -38,49 +39,49 @@
   <a class="notice" href="notice">공지사항</a>
   <button class="add-button">설치하기</button>
   <div class="coupon">
-    <input type="radio" id="all" name="filter" class="all" checked><label for="all" class="all">ALL</label>
-    <input type="radio" id="available" name="filter" class="available"><label for="available">사용가능</label>
+    <input type="radio" id="available" name="filter" class="available" checked><label for="available">사용가능</label>
+    <input type="radio" id="all" name="filter" class="all"><label for="all" class="all">ALL</label>
     <input type="radio" id="unavailable" name="filter" class="unavailable"><label for="unavailable">기간만료</label>
     <div>
-      <button class="available" data-clipboard-text="BEST ALLIANCE">BEST ALLIANCE</button> <!-- 23-7-31 23:59 -->
-      <button class="available" data-clipboard-text="4 THE BEST DAD">4 THE BEST DAD</button> <!-- 23-7-31 23:59 -->
-      <button class="available" data-clipboard-text="SUMMER IS NIGH">SUMMER IS NIGH</button> <!-- 23-7-31 23:59 -->
-      <button class="available" data-clipboard-text="GYOU R THE CHAMPS">GYOU R THE CHAMPS</button> <!-- 23-7-31 23:59 -->
-      <button class="available" data-clipboard-text="ZUM IN2 THE SEA">ZUM IN2 THE SEA</button> <!-- 23-7-31 23:59 -->
-      <button class="available" data-clipboard-text="GI JOE FOREVER">GI JOE FOREVER</button> <!-- 23-6-30 23:59 -->
-      <button class="available" data-clipboard-text="GIJ 1 WEEK LEFT">GIJ 1 WEEK LEFT</button> <!-- 23-6-30 23:59 -->
-      <button class="available" data-clipboard-text="COLLECT EM ALL">COLLECT EM ALL</button> <!-- 23-6-30 23:59 -->
-      <button class="available" data-clipboard-text="4TH THE LAST TIME">4TH THE LAST TIME</button> <!-- 23-6-30 23:59 -->
-      <button class="unavailable" data-clipboard-text="GOT 2 GET TOUGH">GOT 2 GET TOUGH</button> <!-- 23-5-31 23:59 -->
-      <button class="unavailable" data-clipboard-text="STORMSHADOW ROX">STORMSHADOW ROX</button> <!-- 23-5-31 23:59 -->
-      <button class="unavailable" data-clipboard-text="R U MINDBENT">R U MINDBENT</button> <!-- 23-5-31 23:59 -->
-      <button class="unavailable" data-clipboard-text="GO ARASHIKAGE GO">GO ARASHIKAGE GO</button> <!-- 23-4-30 23:59 -->
-      <button class="unavailable" data-clipboard-text="SAFARI SURVIVOR">SAFARI SURVIVOR</button> <!-- 23-4-30 23:59 -->
-      <button class="unavailable" data-clipboard-text="WELCOME NIMITZ">WELCOME NIMITZ</button> <!-- 23-4-30 23:59 -->
-      <button class="unavailable" data-clipboard-text="LUCKY GOLD RAFFLE">LUCKY GOLD RAFFLE</button> <!-- 23-4-30 23:59 -->
-      <button class="unavailable" data-clipboard-text="MADNESS 23 BEGIN">MADNESS 23 BEGIN</button> <!-- 23-4-30 23:59 -->
-      <button class="unavailable" data-clipboard-text="SWEET CANDY">SWEET CANDY</button> <!-- 23-3-31 23:59 -->
-      <button class="unavailable" data-clipboard-text="MARCHN2SPRING">MARCHN2SPRING</button> <!-- 23-4-30 23:59 -->
-      <button class="unavailable" data-clipboard-text="31DAYS OF FEBRUARY">31DAYS OF FEBRUARY</button> <!-- 23-3-31 23:59 -->
-      <button class="unavailable" data-clipboard-text="GET YOUR HEART ON">GET YOUR HEART ON</button> <!-- 23-03-31 23:59 -->
-      <button class="unavailable" data-clipboard-text="BIG GAME GO TEAM">BIG GAME GO TEAM</button> <!-- 23-03-31 23:59 -->
-      <button class="unavailable" data-clipboard-text="SAILING INTO FEB">SAILING INTO FEB</button> <!-- 23-03-31 23:59 -->
-      <button class="unavailable" data-clipboard-text="H0P IN2 2023">H0P IN2 2023</button> <!-- 23-2-28 23:59 -->
-      <button class="unavailable" data-clipboard-text="SWEET CHOCOLATE">SWEET CHOCOLATE</button> <!-- 23-2-28 23:59 -->
-      <button class="unavailable" data-clipboard-text="LUNAR NEW ME">LUNAR NEW ME</button> <!-- 23-2-28 23:59 -->
-      <button class="unavailable" data-clipboard-text="TY 4 GBTW X GIJ">TY 4 GBTW X GIJ</button> <!-- 23-2-28 23:59 -->
-      <button class="unavailable" data-clipboard-text="LAST CHANCE 4 COBRA">LAST CHANCE 4 COBRA</button> <!-- 23-2-28 23:59 -->
-      <button class="unavailable" data-clipboard-text="GI JOE 2 DAYS LEFT">GI JOE 2 DAYS LEFT</button> <!-- 23-2-28 23:59 -->
-      <button class="unavailable" data-clipboard-text="COLLECT GI JOE JH5F">COLLECT GI JOE JH5F</button> <!-- 23-2-28 23:59 -->
-      <button class="unavailable" data-clipboard-text="ALLIANCE FLEET MEET">ALLIANCE FLEET MEET</button> <!-- 23-2-28 23:59 -->
-      <button class="unavailable" data-clipboard-text="YOOOO JOE LETS GO">YOOOO JOE LETS GO</button> <!-- 23-1-31 23:59 -->
-      <button class="unavailable" data-clipboard-text="HAPPY XMAS EVERYONE">HAPPY XMAS EVERYONE</button> <!-- 23-1-31 23:59 -->
-      <button class="unavailable" data-clipboard-text="STRONG BLACK DRAGON">STRONG BLACK DRAGON</button> <!-- 23-1-05 23:59 -->
-      <button class="unavailable" data-clipboard-text="TWO DAYS TO GO JOE">TWO DAYS TO GO JOE</button> <!-- 23-1-31 23:59 -->
-      <button class="unavailable" data-clipboard-text="GEAR UP WITH GI JOE">GEAR UP WITH GI JOE</button> <!-- 23-1-31 23:59 -->
-      <button class="unavailable" data-clipboard-text="GI JOE RETURNS">GI JOE RETURNS</button> <!-- 23-1-31 23:59 -->
-      <button class="unavailable" data-clipboard-text="HAPPY GBTW 4TH ANNI">HAPPY GBTW 4TH ANNI</button> <!-- 23-1-31 23:59 -->
-      <button class="unavailable" data-clipboard-text="4 YRS U ROCK">4 YRS U ROCK</button> <!-- 23-1-31 23:59 -->
+      <button class="available" data-clipboard-text="BEST ALLIANCE" data-hide-date="2023-07-31T23:59:00Z">BEST ALLIANCE</button>
+      <button class="available" data-clipboard-text="4 THE BEST DAD"  data-hide-date="2023-07-31T23:59:00Z">4 THE BEST DAD</button>
+      <button class="available" data-clipboard-text="SUMMER IS NIGH"  data-hide-date="2023-07-31T23:59:00Z">SUMMER IS NIGH</button>
+      <button class="available" data-clipboard-text="GYOU R THE CHAMPS"  data-hide-date="2023-07-31T23:59:00Z">GYOU R THE CHAMPS</button>
+      <button class="available" data-clipboard-text="ZUM IN2 THE SEA"  data-hide-date="2023-07-31T23:59:00Z">ZUM IN2 THE SEA</button>
+      <button class="available" data-clipboard-text="GI JOE FOREVER"  data-hide-date="2023-06-30T23:59:00Z">GI JOE FOREVER</button>
+      <button class="available" data-clipboard-text="GIJ 1 WEEK LEFT"  data-hide-date="2023-06-30T23:59:00Z">GIJ 1 WEEK LEFT</button>
+      <button class="available" data-clipboard-text="COLLECT EM ALL"  data-hide-date="2023-06-30T23:59:00Z">COLLECT EM ALL</button>
+      <button class="available" data-clipboard-text="4TH THE LAST TIME"  data-hide-date="2023-06-30T23:59:00Z">4TH THE LAST TIME</button>
+      <button class="available" data-clipboard-text="GOT 2 GET TOUGH"  data-hide-date="2023-05-31T23:59:00Z">GOT 2 GET TOUGH</button>
+      <button class="available" data-clipboard-text="STORMSHADOW ROX"  data-hide-date="2023-05-31T23:59:00Z">STORMSHADOW ROX</button>
+      <button class="available" data-clipboard-text="R U MINDBENT"  data-hide-date="2023-05-31T23:59:00Z">R U MINDBENT</button>
+      <button class="available" data-clipboard-text="GO ARASHIKAGE GO"  data-hide-date="2023-04-30T23:59:00Z">GO ARASHIKAGE GO</button>
+      <button class="available" data-clipboard-text="SAFARI SURVIVOR"  data-hide-date="2023-04-30T23:59:00Z">SAFARI SURVIVOR</button>
+      <button class="available" data-clipboard-text="WELCOME NIMITZ"  data-hide-date="2023-04-30T23:59:00Z">WELCOME NIMITZ</button>
+      <button class="available" data-clipboard-text="LUCKY GOLD RAFFLE"  data-hide-date="2023-04-30T23:59:00Z">LUCKY GOLD RAFFLE</button>
+      <button class="available" data-clipboard-text="MADNESS 23 BEGIN"  data-hide-date="2023-04-30T23:59:00Z">MADNESS 23 BEGIN</button>
+      <button class="available" data-clipboard-text="SWEET CANDY"  data-hide-date="2023-03-31T23:59:00Z">SWEET CANDY</button>
+      <button class="available" data-clipboard-text="MARCHN2SPRING"  data-hide-date="2023-04-30T23:59:00Z">MARCHN2SPRING</button>
+      <button class="available" data-clipboard-text="31DAYS OF FEBRUARY"  data-hide-date="2023-03-31T23:59:00Z">31DAYS OF FEBRUARY</button>
+      <button class="available" data-clipboard-text="GET YOUR HEART ON"  data-hide-date="2023-03-31T23:59:00Z">GET YOUR HEART ON</button>
+      <button class="available" data-clipboard-text="BIG GAME GO TEAM"  data-hide-date="2023-03-31T23:59:00Z">BIG GAME GO TEAM</button>
+      <button class="available" data-clipboard-text="SAILING INTO FEB"  data-hide-date="2023-03-31T23:59:00Z">SAILING INTO FEB</button>
+      <button class="available" data-clipboard-text="H0P IN2 2023"  data-hide-date="2023-02-28T23:59:00Z">H0P IN2 2023</button>
+      <button class="available" data-clipboard-text="SWEET CHOCOLATE"  data-hide-date="2023-02-28T23:59:00Z">SWEET CHOCOLATE</button>
+      <button class="available" data-clipboard-text="LUNAR NEW ME"  data-hide-date="2023-02-28T23:59:00Z">LUNAR NEW ME</button>
+      <button class="available" data-clipboard-text="TY 4 GBTW X GIJ"  data-hide-date="2023-02-28T23:59:00Z">TY 4 GBTW X GIJ</button>
+      <button class="available" data-clipboard-text="LAST CHANCE 4 COBRA"  data-hide-date="2023-02-28T23:59:00Z">LAST CHANCE 4 COBRA</button>
+      <button class="available" data-clipboard-text="GI JOE 2 DAYS LEFT"  data-hide-date="2023-02-28T23:59:00Z">GI JOE 2 DAYS LEFT</button>
+      <button class="available" data-clipboard-text="COLLECT GI JOE JH5F"  data-hide-date="2023-02-28T23:59:00Z">COLLECT GI JOE JH5F</button>
+      <button class="available" data-clipboard-text="ALLIANCE FLEET MEET"  data-hide-date="2023-02-28T23:59:00Z">ALLIANCE FLEET MEET</button>
+      <button class="available" data-clipboard-text="YOOOO JOE LETS GO"  data-hide-date="2023-01-31T23:59:00Z">YOOOO JOE LETS GO</button>
+      <button class="available" data-clipboard-text="HAPPY XMAS EVERYONE"  data-hide-date="2023-01-31T23:59:00Z">HAPPY XMAS EVERYONE</button>
+      <button class="available" data-clipboard-text="STRONG BLACK DRAGON"  data-hide-date="2023-01-05T23:59:00Z">STRONG BLACK DRAGON</button>
+      <button class="available" data-clipboard-text="TWO DAYS TO GO JOE"  data-hide-date="2023-01-31T23:59:00Z">TWO DAYS TO GO JOE</button>
+      <button class="available" data-clipboard-text="GEAR UP WITH GI JOE"  data-hide-date="2023-01-31T23:59:00Z">GEAR UP WITH GI JOE</button>
+      <button class="available" data-clipboard-text="GI JOE RETURNS"  data-hide-date="2023-01-31T23:59:00Z">GI JOE RETURNS</button>
+      <button class="available" data-clipboard-text="HAPPY GBTW 4TH ANNI"  data-hide-date="2023-01-31T23:59:00Z">HAPPY GBTW 4TH ANNI</button>
+      <button class="available" data-clipboard-text="4 YRS U ROCK"  data-hide-date="2023-01-31T23:59:00Z">4 YRS U ROCK</button>
     </div>
   </div> 
   <footer>
