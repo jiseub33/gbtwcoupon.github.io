@@ -152,6 +152,12 @@ svg:nth-child(1) {
     line-height: 60px;
 }
 
+.coupon button.active {
+    background: #00d26a;
+    color: #fff;
+    font-size: 25px;
+}
+
 .coupon button:nth-last-child(1) {
     margin: 0;
 }
