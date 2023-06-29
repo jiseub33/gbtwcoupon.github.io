@@ -1,23 +1,22 @@
-// Get the text from the clipboard
-function getTextFromClipboard() {
+// Function to compare clipboard text with button text and add/remove class
+function compareTextAndUpdateClass() {
     navigator.clipboard.readText().then(function(clipboardText) {
-      // Call a function to add class based on clipboard text
-      addClassToButtons(clipboardText);
+      var buttons = document.getElementsByTagName('button');
+
+      for (var i = 0; i < buttons.length; i++) {
+        var buttonText = buttons[i].textContent;
+
+        if (buttonText === clipboardText) {
+          buttons[i].classList.add('active');
+        } else {
+          buttons[i].classList.remove('active');
+        }
+      }
     });
   }
 
-  // Add class to buttons based on clipboard text
-  function addClassToButtons(clipboardText) {
-    var buttons = document.getElementsByTagName('button');
+  // Call the function initially
+  compareTextAndUpdateClass();
 
-    for (var i = 0; i < buttons.length; i++) {
-      var buttonText = buttons[i].textContent;
-
-      if (buttonText === clipboardText) {
-        buttons[i].classList.add('active');
-      }
-    }
-  }
-
-  // Call the function to get clipboard text and add class to buttons
-  getTextFromClipboard();
+  // Monitor clipboard changes periodically
+  setInterval(compareTextAndUpdateClass, 1); // Change interval as desired
