@@ -19,7 +19,7 @@ function srvTime(){
             }
         }
     }
-    xmlHttp.open('HEAD',window.location.href.toString(),false);
+    xmlHttp.open('HEAD', window.location.href.toString(), false);
     xmlHttp.setRequestHeader("Content-Type", "text/html");
     xmlHttp.send('');
     return xmlHttp.getResponseHeader("Date");
@@ -27,3 +27,5 @@ function srvTime(){
 
 var st = srvTime();
 var date = new Date(st);
+// 시간을 한국 표준시(KST)로 변환
+date.setHours(date.getHours() + 9);
