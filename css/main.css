@@ -66,6 +66,38 @@ svg:nth-child(1) {
     font-weight: 800;
 }
 
+.ad {
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 20px;
+    font-size: 0;
+}
+
+.ad:after {
+    content: "ad";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 1.5px 15px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 20px 0 0 0;
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    box-sizing: border-box;
+}
+
+.ad img {
+    width: 100%;
+    transition: .5 all;
+}
+
+.ad:hover img {
+    scale: 1.1;
+}
+
 .notice {
     display: block;
     padding: 15px;
@@ -101,6 +133,7 @@ svg:nth-child(1) {
 }
 
 .coupon {
+    position: relative;
     width: 90%;
     padding: 15px;
     margin: 20px auto;
@@ -128,6 +161,24 @@ svg:nth-child(1) {
     transition: 1s all;
 }
 
+.coupon button.sort-button {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 27px;
+    height: 27px;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 100%;
+    background: url(../images/icons/sort-asc.svg) no-repeat top -27px center, url(../images/icons/sort-desc.svg) no-repeat center;
+    border: none;
+    transition: .5s all;
+}
+
+.coupon button.sort-button.oldest {
+    background: url(../images/icons/sort-asc.svg) no-repeat center, url(../images/icons/sort-desc.svg) no-repeat top 27px center;
+}
+
 .coupon input:checked + label {
     background: #141414;
     color: #fff;
@@ -138,7 +189,7 @@ svg:nth-child(1) {
     box-sizing: border-box;
 }
 
-.coupon button {
+.coupon div button {
     display: none;
     padding: 0;
     margin: 0 0 10px 0;
@@ -152,7 +203,7 @@ svg:nth-child(1) {
     line-height: 60px;
 }
 
-.coupon button.active {
+.coupon div button.active {
     background: #00d26a;
     color: #fff;
     font-size: 25px;

@@ -33,7 +33,16 @@
         color: #fff;
     }
 
-    .coupon  button { background: #1f1f1f;
+    .coupon button.sort-button {
+        background: url(../images/icons/sort-asc-white.svg) no-repeat top -27px center, url(../images/icons/sort-desc-white.svg) no-repeat center;
+    }
+    
+    .coupon button.sort-button.oldest {
+        background: url(../images/icons/sort-asc-white.svg) no-repeat center, url(../images/icons/sort-desc-white.svg) no-repeat top 27px center;
+    }
+
+    .coupon div button {
+        background: #1f1f1f;
         border: 1px solid #323232;
         color: #fff;
     }

@@ -15,6 +15,7 @@
   <script defer src="js/hide.js"></script>
   <script defer src="js/theme.js"></script>
   <script defer src="js/active.js"></script>
+  <script defer src="js/sort.js"></script>
   <script defer src="js/install.js"></script>
   <script type="module">
     import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
@@ -37,13 +38,19 @@
         last update 23/08/17
     </p>
   </div>
+  <div class="ad">
+    <a href="https://navy.jisby.com/gc#manual">
+      <img src="images/ad/manual.jpg">
+    </a>
+  </div>
   <a class="notice" href="notice">공지사항</a>
   <button class="add-button">설치하기</button>
   <div class="coupon">
     <input type="radio" id="available" name="filter" class="available" checked><label for="available">사용가능</label>
     <input type="radio" id="all" name="filter" class="all"><label for="all" class="all">ALL</label>
     <input type="radio" id="unavailable" name="filter" class="unavailable"><label for="unavailable">기간만료</label>
-    <div>
+    <button class="sort-button" id="toggleButton"></button>
+    <div class="coupons">
       <button class="available" data-clipboard-text="JUMP101" data-hide-date="2023-09-30T23:59:00Z">JUMP101</button>
       <button class="available" data-clipboard-text="A10OUTTA10" data-hide-date="2023-09-30T23:59:00Z">A10OUTTA10</button>
       <button class="available" data-clipboard-text="FOLLOW GBTW INSTA" data-hide-date="2023-09-30T23:59:00Z">FOLLOW GBTW INSTA</button>
@@ -91,7 +98,7 @@
       <button class="available" data-clipboard-text="HAPPY GBTW 4TH ANNI"  data-hide-date="2023-01-31T23:59:00Z">HAPPY GBTW 4TH ANNI</button>
       <button class="available" data-clipboard-text="4 YRS U ROCK"  data-hide-date="2023-01-31T23:59:00Z">4 YRS U ROCK</button>
     </div>
-  </div> 
+  </div>
   <footer>
     <img src="images/logo/LOGO_EON.png" alt="">
     <p>© 2020-2023 Empire of Navy. All Rights Reserved.</p>
