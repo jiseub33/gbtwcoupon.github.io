@@ -93,14 +93,14 @@ svg:nth-child(1) {
 }
 
 .deadline:after {
-    content: "바로가기>>";
+    content: ">>";
     position: absolute;
     right: 5%;
     bottom: 0;
     color: #fff;
     font-family: 'Black Han Sans', sans-serif;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 74.16px;
     box-sizing: border-box;
 }
 
