@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Check for the class initially and then every 1000ms (1 second)
+    // Check for the class initially and then every 100ms (0.1 seconds)
     checkForTodayClass();
-    setInterval(checkForTodayClass, 1000);
+    setInterval(checkForTodayClass, 0); // Set interval to 100ms
 });
