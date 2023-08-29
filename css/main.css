@@ -66,7 +66,8 @@ svg:nth-child(1) {
     font-weight: 800;
 }
 
-.ad {
+.ad,
+.deadline {
     overflow: hidden;
     position: relative;
     margin: 20px auto;
@@ -89,12 +90,14 @@ svg:nth-child(1) {
     box-sizing: border-box;
 }
 
-.ad img {
+.ad img,
+.deadline img {
     width: 100%;
     transition: .5 all;
 }
 
-.ad:hover img {
+.ad:hover img,
+.deadline:hover img {
     scale: 1.1;
 }
 
@@ -170,13 +173,13 @@ svg:nth-child(1) {
     padding: 0;
     box-sizing: border-box;
     border-radius: 100%;
-    background: url(../images/icons/sort-asc.svg) no-repeat top -27px center, url(../images/icons/sort-desc.svg) no-repeat center;
+    background: url(../images/icons/sort-asc.svg) no-repeat top 27px center, url(../images/icons/sort-desc.svg) no-repeat center;
     border: none;
     transition: .5s all;
 }
 
 .coupon button.sort-button.oldest {
-    background: url(../images/icons/sort-asc.svg) no-repeat center, url(../images/icons/sort-desc.svg) no-repeat top 27px center;
+    background: url(../images/icons/sort-asc.svg) no-repeat center, url(../images/icons/sort-desc.svg) no-repeat top -27px center;
 }
 
 .coupon input:checked + label {
@@ -191,6 +194,7 @@ svg:nth-child(1) {
 
 .coupon div button {
     display: none;
+    position: relative;
     padding: 0;
     margin: 0 0 10px 0;
     width: 100%;
@@ -201,6 +205,22 @@ svg:nth-child(1) {
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 700;
     line-height: 60px;
+    z-index: 1000;
+}
+
+.coupon div button.today:after {
+    content: "오늘마감";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 1px 2.5%;
+    font-size: 5px;
+    font-weight: 300;
+    color: #fff;
+    background: red;
+    border-radius: 10px;
+    line-height: 10px;
+    transform: translate(-50%, -50%);
 }
 
 .coupon div button.active {

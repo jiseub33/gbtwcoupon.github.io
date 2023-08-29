@@ -34,11 +34,11 @@
     }
 
     .coupon button.sort-button {
-        background: url(../images/icons/sort-asc-white.svg) no-repeat top -27px center, url(../images/icons/sort-desc-white.svg) no-repeat center;
+        background: url(../images/icons/sort-asc-white.svg) no-repeat top 27px center, url(../images/icons/sort-desc-white.svg) no-repeat center;
     }
     
     .coupon button.sort-button.oldest {
-        background: url(../images/icons/sort-asc-white.svg) no-repeat center, url(../images/icons/sort-desc-white.svg) no-repeat top 27px center;
+        background: url(../images/icons/sort-asc-white.svg) no-repeat center, url(../images/icons/sort-desc-white.svg) no-repeat top -27px center;
     }
 
     .coupon div button {

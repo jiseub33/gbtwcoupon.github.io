@@ -1,31 +1,17 @@
-var xmlHttp;
-function srvTime(){
-    try {
-        //FF, Opera, Safari, Chrome
-        xmlHttp = new XMLHttpRequest();
-    }
-    catch (err1) {
-        //IE
-        try {
-            xmlHttp = new ActiveXObject('Msxml2.XMLHTTP');
-        }
-        catch (err2) {
-            try {
-                xmlHttp = new ActiveXObject('Microsoft.XMLHTTP');
-            }
-            catch (eerr3) {
-                //AJAX not supported, use CPU time.
-                alert("AJAX not supported");
-            }
-        }
-    }
-    xmlHttp.open('HEAD', window.location.href.toString(), false);
-    xmlHttp.setRequestHeader("Content-Type", "text/html");
-    xmlHttp.send('');
-    return xmlHttp.getResponseHeader("Date");
+function getServerTime() {
+    return fetch(window.location.href, { method: 'HEAD' })
+        .then(response => response.headers.get('date'))
+        .then(serverDate => {
+            const date = new Date(serverDate);
+            date.setHours(date.getHours() + 9); // Convert to KST
+            return date;
+        })
+        .catch(error => {
+            console.error('Error fetching server time:', error);
+            return new Date(); // Fallback to local time
+        });
 }
 
-var st = srvTime();
-var date = new Date(st);
-// 시간을 한국 표준시(KST)로 변환
-date.setHours(date.getHours() + 9);
+getServerTime().then(serverTime => {
+    console.log('Server time (KST):', serverTime);
+});
