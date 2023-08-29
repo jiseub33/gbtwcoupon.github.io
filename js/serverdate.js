@@ -3,12 +3,12 @@ function getServerTime() {
         .then(response => response.headers.get('date'))
         .then(serverDate => {
             const date = new Date(serverDate);
-            date.setHours(date.getHours() + 9); // Convert to KST
+            date.setHours(date.getHours() + 9);
             return date;
         })
         .catch(error => {
             console.error('Error fetching server time:', error);
-            return new Date(); // Fallback to local time
+            return new Date();
         });
 }
 

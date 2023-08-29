@@ -1,24 +1,23 @@
-// Function to compare clipboard text with button text and add/remove class
+var couponButtons = document.querySelectorAll('.coupons button');
+
+couponButtons.forEach(function(button) {
+  button.addEventListener('click', compareTextAndUpdateClass);
+});
+
 function compareTextAndUpdateClass() {
   navigator.clipboard.readText().then(function(clipboardText) {
-    var buttons = document.getElementsByTagName('button');
+    var buttons = document.querySelectorAll('.coupons button');
 
-    for (var i = 0; i < buttons.length; i++) {
-      var buttonText = buttons[i].textContent;
+    buttons.forEach(function(button) {
+      var buttonText = button.textContent;
 
       if (buttonText === clipboardText) {
-        buttons[i].classList.add('active');
+        button.classList.add('active');
       } else {
-        buttons[i].classList.remove('active');
+        button.classList.remove('active');
       }
-    }
+    });
   }).catch(function(error) {
     console.log('Error reading clipboard text:', error);
   });
 }
-
-// Call the function initially
-compareTextAndUpdateClass();
-
-// Monitor clipboard changes periodically
-setInterval(compareTextAndUpdateClass, 100); // Change interval as desired
