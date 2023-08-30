@@ -95,13 +95,14 @@ svg:nth-child(1) {
 .deadline:after {
     content: ">>";
     position: absolute;
+    top: 50%;
     right: 5%;
-    bottom: 0;
     color: #fff;
     font-family: 'Black Han Sans', sans-serif;
-    font-size: 20px;
-    line-height: 74.16px;
+    font-size: 5vw;
+    line-height: 1;
     box-sizing: border-box;
+    transform: translateY(-50%);
 }
 
 .ad img,
