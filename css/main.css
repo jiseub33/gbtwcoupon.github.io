@@ -251,3 +251,38 @@ svg:nth-child(1) {
 .coupon button:nth-last-child(1) {
     margin: 0;
 }
+
+.service {
+    text-align: center;
+}
+
+.service a {
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: #fff;
+    color: #141414;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.servie a span {
+    vertical-align: bottom;
+    line-height: 40px;
+}
+
+.service a span:before {
+    content: "";
+    display: inline-block;
+    padding: 0 10px 0 0;
+    width: 25px;
+    height: 25px;
+    background: url("../images/icons/customer-service-fill.svg") no-repeat left center;
+    vertical-align: -4px;
+}
