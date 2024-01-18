@@ -5,6 +5,18 @@
   <title>건쉽배틀 쿠폰앱</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+  <script>
+    var currentURL = window.location.href;
+
+    if (currentURL.startsWith("https://gbtwcoupon.jisby.com/us")) {
+      document.addEventListener('DOMContentLoaded', function() {
+        var maintitleH1 = document.querySelector('.maintitle > h1');
+        if (maintitleH1) {
+          maintitleH1.textContent = "You are offline.";
+        }
+      });
+    }
+  </script>
 </head>
 <body>
   <svg id="G" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.03 83.37"><defs><style>.cls-1{fill:#0090f2;}</style></defs>
