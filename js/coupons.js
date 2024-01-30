@@ -1,4 +1,5 @@
 var couponData = [
+    { text: "SMOOCH A SHARK", date: "2024-02-29T23:59:00Z" },
     { text: "HIT YOUR GOALS", date: "2024-02-29T23:59:00Z" },
     { text: "FOREVER 2094", date: "2024-02-29T23:59:00Z" },
     { text: "kkangkkangpunch", date: "2024-02-29T23:59:00Z" },
