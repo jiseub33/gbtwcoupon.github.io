@@ -39,6 +39,13 @@
   <script defer src="https://gbtwcoupon.jisby.com/js/sort.js"></script>
   <script defer src="https://gbtwcoupon.jisby.com/js/install.js"></script>
   <script defer src="https://gbtwcoupon.jisby.com/js/ad.js" defer></script>
+  <script>
+    window.addEventListener('load', function() {
+      let message = {height: document.body.scrollHeight};	
+
+      window.top.postMessage(message, "*");
+    });
+  </script>
   <script type="module">
     import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
     const el = document.createElement('pwa-update');
