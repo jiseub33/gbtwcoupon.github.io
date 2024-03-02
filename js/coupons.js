@@ -1,4 +1,6 @@
 var couponData = [
+    { text: "HOP SKIP LEAP 2024", date: "2024-03-31T23:59:00Z" },
+    { text: "MORE 4 DISCORD 2024", date: "2024-03-31T23:59:00Z" },
     { text: "HEART BEATS 4U", date: "2024-03-31T23:59:00Z" },
     { text: "THE DRAGON FLIES", date: "2024-03-31T23:59:00Z" },
     { text: "TAXIJARAM", date: "2024-02-29T23:59:00Z" },
