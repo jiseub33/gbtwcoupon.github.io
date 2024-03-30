@@ -1,4 +1,5 @@
 var couponData = [
+    { text: "FIX THE FIGHTER", date: "2024-04-30T23:59:00Z" },
     { text: "LUCKYSHAMROCK", date: "2024-04-30T23:59:00Z" },
     { text: "NO TIME 2 SNOOZE", date: "2024-04-30T23:59:00Z" },
     { text: "HOP SKIP LEAP 2024", date: "2024-03-31T23:59:00Z" },
