@@ -1,4 +1,6 @@
 var couponData = [
+    { text: "PICTURE PERFECT", date: "2024-05-31T23:59:00Z" },
+    { text: "GITS AND SHIGGLES", date: "2024-05-31T23:59:00Z" },
     { text: "FIX THE FIGHTER", date: "2024-04-30T23:59:00Z" },
     { text: "LUCKYSHAMROCK", date: "2024-04-30T23:59:00Z" },
     { text: "NO TIME 2 SNOOZE", date: "2024-04-30T23:59:00Z" },
