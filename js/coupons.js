@@ -1,4 +1,7 @@
 var couponData = [
+    { text: "I LIKE TURTLES", date: "2024-05-31T23:59:00Z" },
+    { text: "WAIFU OF THE YEAR", date: "2024-05-31T23:59:00Z" },
+    { text: "BELOW SEA LEVEL", date: "2024-05-31T23:59:00Z" },
     { text: "PICTURE PERFECT", date: "2024-05-31T23:59:00Z" },
     { text: "GITS AND SHIGGLES", date: "2024-05-31T23:59:00Z" },
     { text: "FIX THE FIGHTER", date: "2024-04-30T23:59:00Z" },
