@@ -1,4 +1,11 @@
 var couponData = [
+    { text: "LOUNGE HAPPY", date: "2024-07-31T23:59:00Z" },
+    { text: "A10CEAN", date: "2024-07-31T23:59:00Z" },
+    { text: "LOUNGE NICE", date: "2024-07-31T23:59:00Z" },
+    { text: "LOUNGE PARTY", date: "2024-07-31T23:59:00Z" },
+    { text: "LOUNGE LOGIN", date: "2024-07-31T23:59:00Z" },
+    { text: "LOUNGE PRESENT", date: "2024-07-31T23:59:00Z" },
+    { text: "LOUNGE CHECK IN", date: "2024-07-31T23:59:00Z" },
     { text: "LOUNGE ENJOY", date: "2024-07-31T23:59:00Z" },
     { text: "HONOR OUR HEROES", date: "2024-06-30T23:59:00Z" },
     { text: "LOUNGE PLAY", date: "2024-07-31T23:59:00Z" },
