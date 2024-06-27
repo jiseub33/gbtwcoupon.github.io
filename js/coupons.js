@@ -1,4 +1,8 @@
 var couponData = [
+    { text: "MAY QUEEN SUMMER", date: "2024-07-31T23:59:00Z" },
+    { text: "WE WILL DEFEND", date: "2024-07-31T23:59:00Z" },
+    { text: "HI HUNGRY IM DAD", date: "2024-07-31T23:59:00Z" },
+    { text: "WE WILL DEFEND", date: "2024-07-31T23:59:00Z" },
     { text: "LOUNGE HAPPY", date: "2024-07-31T23:59:00Z" },
     { text: "A10CEAN", date: "2024-07-31T23:59:00Z" },
     { text: "LOUNGE NICE", date: "2024-07-31T23:59:00Z" },
