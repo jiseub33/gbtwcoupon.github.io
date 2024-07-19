@@ -1,4 +1,6 @@
 var couponData = [
+    { text: "FLYING SERPENT", date: "2024-08-31T23:59:00Z" },
+    { text: "4 FREEDOM 24", date: "2024-08-31T23:59:00Z" },
     { text: "MAY QUEEN SUMMER", date: "2024-07-31T23:59:00Z" },
     { text: "WE WILL DEFEND", date: "2024-07-31T23:59:00Z" },
     { text: "HI HUNGRY IM DAD", date: "2024-07-31T23:59:00Z" },
