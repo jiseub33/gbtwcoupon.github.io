@@ -1,4 +1,5 @@
 var couponData = [
+    { text: "FINCREDIBLE", date: "2024-08-31T23:59:00Z" },
     { text: "FLYING SERPENT", date: "2024-08-31T23:59:00Z" },
     { text: "4 FREEDOM 24", date: "2024-08-31T23:59:00Z" },
     { text: "MAY QUEEN SUMMER", date: "2024-07-31T23:59:00Z" },
