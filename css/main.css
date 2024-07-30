@@ -68,7 +68,7 @@ svg:nth-child(1) {
 }
 
 .ad,
-.deadline
+.deadline,
 .event {
     display: none;
     overflow: hidden;
