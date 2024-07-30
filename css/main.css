@@ -68,7 +68,8 @@ svg:nth-child(1) {
 }
 
 .ad,
-.deadline {
+.deadline
+.event {
     display: none;
     overflow: hidden;
     position: relative;
@@ -106,13 +107,15 @@ svg:nth-child(1) {
 }
 
 .ad img,
-.deadline img {
+.deadline img
+.event img {
     width: 100%;
     transition: .5 all;
 }
 
 .ad:hover img,
-.deadline:hover img {
+.deadline:hover img,
+.event:hover img {
     scale: 1.1;
 }
 
