@@ -107,7 +107,7 @@ svg:nth-child(1) {
 }
 
 .ad img,
-.deadline img
+.deadline img,
 .event img {
     width: 100%;
     transition: .5 all;
