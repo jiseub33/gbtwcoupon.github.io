@@ -245,6 +245,21 @@ svg:nth-child(1) {
     transform: translate(-50%, -50%);
 }
 
+.us div button.today:after {
+    content: "expired today";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 1px 5%;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    background: red;
+    border-radius: 10px;
+    line-height: 15px;
+    transform: translate(-50%, -50%);
+}
+
 .coupon div button.active {
     background: #00d26a;
     color: #fff;
