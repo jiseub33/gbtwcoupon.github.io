@@ -1,4 +1,8 @@
 var couponData = [
+    { text: "SCREAMING EAGLES", date: "2024-09-30T23:59:00Z" },
+    { text: "ETERNAL LIGHT", date: "2024-09-30T23:59:00Z" },
+    { text: "HAPPYMARRIAGE", date: "2024-09-30T23:59:00Z" },
+    { text: "SLOW IS SMOOTH", date: "2024-09-30T23:59:00Z" },
     { text: "FREE JOE EXOTIC", date: "2024-08-31T23:59:00Z" },
     { text: "FINCREDIBLE", date: "2024-08-31T23:59:00Z" },
     { text: "FLYING SERPENT", date: "2024-08-31T23:59:00Z" },
