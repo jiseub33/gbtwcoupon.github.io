@@ -1,4 +1,7 @@
 var couponData = [
+    { text: "ALJETBRA", date: "2024-10-31T23:59:00Z" },
+    { text: "PEACE OUT AUG", date: "2024-09-30T23:59:00Z" },
+    { text: "SKYS THE LIMIT", date: "2024-09-30T23:59:00Z" },
     { text: "SCREAMING EAGLES", date: "2024-09-30T23:59:00Z" },
     { text: "ETERNAL LIGHT", date: "2024-09-30T23:59:00Z" },
     { text: "HAPPYMARRIAGE", date: "2024-09-30T23:59:00Z" },
