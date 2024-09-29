@@ -1,4 +1,6 @@
 var couponData = [
+    { text: "INTEGRITY FIRST", date: "2024-10-31T23:59:00Z" },
+    { text: "SUS THEM OUT", date: "2024-10-31T23:59:00Z" },
     { text: "ALJETBRA", date: "2024-10-31T23:59:00Z" },
     { text: "PEACE OUT AUG", date: "2024-09-30T23:59:00Z" },
     { text: "SKYS THE LIMIT", date: "2024-09-30T23:59:00Z" },
