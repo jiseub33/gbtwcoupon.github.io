@@ -1,4 +1,9 @@
 var couponData = [
+    { text: "WICKED WONDERS", date: "2024-11-30T23:59:00Z" },
+    { text: "BRATS N BREWS", date: "2024-11-30T23:59:00Z" },
+    { text: "BLOODY GOOD TIME", date: "2024-11-30T23:59:00Z" },
+    { text: "BRATS N BREWS", date: "2024-11-30T23:59:00Z" },
+    { text: "HANDSOME BREW", date: "2024-10-31T23:59:00Z" },
     { text: "INTEGRITY FIRST", date: "2024-10-31T23:59:00Z" },
     { text: "SUS THEM OUT", date: "2024-10-31T23:59:00Z" },
     { text: "ALJETBRA", date: "2024-10-31T23:59:00Z" },
