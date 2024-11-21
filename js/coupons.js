@@ -1,4 +1,7 @@
 var couponData = [
+    { text: "BRAVERYNSACRIFICE", date: "2024-12-31T23:59:00Z" },
+    { text: "STRONGERTOGETHER", date: "2024-12-31T23:59:00Z" },
+    { text: "WITCHING HOUR", date: "2024-11-30T23:59:00Z" },
     { text: "WICKED WONDERS", date: "2024-11-30T23:59:00Z" },
     { text: "BLOODY GOOD TIME", date: "2024-11-30T23:59:00Z" },
     { text: "BRATS N BREWS", date: "2024-11-30T23:59:00Z" },
