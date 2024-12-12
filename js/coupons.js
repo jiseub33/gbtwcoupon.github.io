@@ -1,4 +1,8 @@
 var couponData = [
+    { text: "6YEARSOFGBTW", date: "2024-12-31T23:59:00Z" },
+    { text: "ALMOST 6TH BDAY", date: "2024-12-31T23:59:00Z" },
+    { text: "GRAVYSHIPS", date: "2024-12-31T23:59:00Z" },
+    { text: "WHENYOUSEEIT", date: "2024-12-31T23:59:00Z" },
     { text: "BRAVERYNSACRIFICE", date: "2024-12-31T23:59:00Z" },
     { text: "STRONGERTOGETHER", date: "2024-12-31T23:59:00Z" },
     { text: "WITCHING HOUR", date: "2024-11-30T23:59:00Z" },
