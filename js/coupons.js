@@ -1,4 +1,5 @@
 var couponData = [
+    { text: "READYFOR2025", date: "2025-01-31T23:59:00Z" },
     { text: "SLEIGHTHEDAY", date: "2025-01-31T23:59:00Z" },
     { text: "6YEARSOFGBTW", date: "2024-12-31T23:59:00Z" },
     { text: "ALMOST 6TH BDAY", date: "2024-12-31T23:59:00Z" },
