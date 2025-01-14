@@ -1,4 +1,6 @@
 var couponData = [
+    { text: "HI HORNET FA18", date: "2025-02-28T23:59:00Z" },
+    { text: "HNY ADMIRALS 2025", date: "2025-02-28T23:59:00Z" },
     { text: "READYFOR2025", date: "2025-01-31T23:59:00Z" },
     { text: "SLEIGHTHEDAY", date: "2025-01-31T23:59:00Z" },
     { text: "6YEARSOFGBTW", date: "2024-12-31T23:59:00Z" },
