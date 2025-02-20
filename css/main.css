@@ -121,6 +121,7 @@ svg:nth-child(1) {
 
 .notice {
     display: block;
+    position: relative;
     padding: 15px;
     margin: 20px auto;
     width: 90%;
@@ -133,6 +134,22 @@ svg:nth-child(1) {
     font-weight: 700;
     line-height: 40px;
     text-decoration: none;
+}
+
+.notice-new span::after {
+    content: "NEW";
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px;
+    margin: 0 0 0 5px;
+    border-radius: 10px;
+    background: #ff0000;
+    color: #fff;
+    font-size: 10px;
+    line-height: 10px;
 }
 
 .add-button {
