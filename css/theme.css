@@ -33,6 +33,10 @@
         color: #fff;
     }
 
+    .coupon .onlysteam + label {
+        background: url(../images/icons/steam-fill-white.svg) no-repeat;
+    }
+
     .coupon button.sort-button {
         background: url(../images/icons/sort-asc-white.svg) no-repeat top 27px center, url(../images/icons/sort-desc-white.svg) no-repeat center;
     }

@@ -68,21 +68,14 @@
         <h1>쿠폰모음</h1>
     </div>
     <p class="subtitle">
-      last update 24/01/08
+      last update 25/02/14
     </p>
   </div>
-  <div class="ad">
-    <a href="https://forms.gle/nYTrPDdw3tp3UASQ7">
-      <img src="images/ad/survey.jpg">
-    </a>
-  </div>
-  <!--
   <div class="ad">
     <a href="https://navy.jisby.com/gc">
       <img src="images/ad/manual.jpg">
     </a>
   </div>
-  -->
   <div class="deadline">
     <a href="#today">
       <img src="images/ad/deadline.jpg">
@@ -91,11 +84,21 @@
   <a class="notice" href="https://gbtwcoupon.jisby.com/notice">공지사항</a>
   <button class="add-button">설치하기</button>
   <div class="coupon">
-    <input type="radio" id="available" name="filter" class="available" checked><label for="available">사용가능</label>
-    <input type="radio" id="all" name="filter" class="all"><label for="all" class="all">ALL</label>
-    <input type="radio" id="unavailable" name="filter" class="unavailable"><label for="unavailable">기간만료</label>
+    <div class="filters">
+      <input type="radio" id="available" name="filter" class="available" checked><label for="available">사용가능</label>
+      <input type="radio" id="all" name="filter" class="all"><label for="all" class="all">ALL</label>
+      <input type="radio" id="unavailable" name="filter" class="unavailable"><label for="unavailable">기간만료</label>
+      <input type="radio" id="onlysteam" name="filter" class="onlysteam"><label for="onlysteam">STEAM</label>
+    </div>
     <button class="sort-button" id="toggleButton"></button>
     <div class="coupons">
+      <button class="onlysteam" data-clipboard-text="READY STEAM GO" data-hide-date="2025-12-31T23:59:00Z" id="">READY STEAM GO</button>
+      <button class="onlysteam" data-clipboard-text="JOIN GBTW STEAM" data-hide-date="2025-12-31T23:59:00Z" id="">JOIN GBTW STEAM</button>
+      <button class="onlysteam" data-clipboard-text="LIVE LAUGH STEAM" data-hide-date="2025-12-31T23:59:00Z" id="">LIVE LAUGH STEAM</button>
+      <button class="onlysteam" data-clipboard-text="CLOSER TO LAUNCH" data-hide-date="2025-12-31T23:59:00Z" id="">CLOSER TO LAUNCH</button>
+      <button class="onlysteam" data-clipboard-text="GETTING STEAMY" data-hide-date="2025-12-31T23:59:00Z" id="">GETTING STEAMY</button>
+      <button class="onlysteam" data-clipboard-text="COUNTDOWN BEGIN" data-hide-date="2025-12-31T23:59:00Z" id="">COUNTDOWN BEGIN</button>
+      <button class="onlysteam" data-clipboard-text="STEAM COMING SOON" data-hide-date="2025-12-31T23:59:00Z" id="">STEAM COMING SOON</button>
     </div>
   </div>
   <div class="service">

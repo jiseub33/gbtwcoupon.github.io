@@ -1,14 +1,19 @@
-.coupon input.all:checked ~ div button {
+.filters:has(input.all:checked) ~ div button {
     display: block;
     animation: all 1s ease;
 }
 
-.coupon input.available:checked ~ div button.available {
+.filters:has(input.available:checked) ~ div button.available {
     display: block;
     animation: some 1s ease;
 }
 
-.coupon input.unavailable:checked ~ div button.unavailable {
+.filters:has(input.unavailable:checked) ~ div button.unavailable {
+    display: block;
+    animation: some 1s ease;
+}
+
+.filters:has(input.onlysteam:checked) ~ div button.onlysteam {
     display: block;
     animation: some 1s ease;
 }

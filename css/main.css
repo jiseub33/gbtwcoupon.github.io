@@ -163,6 +163,17 @@ svg:nth-child(1) {
     background: #fff;
 }
 
+.coupon .filters {
+    overflow: auto;
+    display: block;
+    margin: 0;
+    width: calc(100% - 42px);
+    border-radius: 27px;
+    text-wrap: nowrap;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
 .coupon input{
     position: absolute;
     left: -5000px;
@@ -180,6 +191,11 @@ svg:nth-child(1) {
     font-weight: 500;
     line-height: 15px;
     transition: 1s all;
+}
+
+.coupon .onlysteam + label {
+    padding-left: 25px;
+    background: url(../images/icons/steam-fill.svg) no-repeat;
 }
 
 .coupon button.sort-button {
@@ -202,6 +218,11 @@ svg:nth-child(1) {
 
 .coupon input:checked + label {
     background: #141414;
+    color: #fff;
+}
+
+.coupon input.onlysteam:checked + label {
+    background: url(../images/icons/steam-fill-white.svg) no-repeat, #141414;
     color: #fff;
 }
 

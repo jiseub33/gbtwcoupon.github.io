@@ -1,4 +1,8 @@
 var couponData = [
+    { text: "FIRE N ICE25", date: "2025-03-31T23:59:00Z" },
+    { text: "BIGGAMEDAY25", date: "2025-03-31T23:59:00Z" },
+    { text: "NOSTEPONSNEK", date: "2025-02-28T23:59:00Z" },
+    { text: "GETTINGSTEAMY", date: "2025-02-28T23:59:00Z" },
     { text: "HI HORNET FA18", date: "2025-02-28T23:59:00Z" },
     { text: "HNY ADMIRALS 2025", date: "2025-02-28T23:59:00Z" },
     { text: "READYFOR2025", date: "2025-01-31T23:59:00Z" },
