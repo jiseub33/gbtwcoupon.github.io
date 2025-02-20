@@ -80,7 +80,16 @@ svg:nth-child(1) {
     width: 90%;
 }
 
+.post .maintext div {
+    display: block;
+    margin: 15px 0;
+    width: 100%;
+    height: 2px;
+    background: #2f2f2f;
+}
+
 .post .maintext p {
+    margin: 15px 0;
     color: #2f2f2f;
     font-size: 15px;
     font-weight: 600;
@@ -90,6 +99,16 @@ svg:nth-child(1) {
 .post .maintext p a {
     color: #0090f2;
     text-decoration: none;
+}
+
+.post .maintext video.phone {
+    display: block;
+    margin: 50px auto;
+    width: 50%;
+    max-width: 300px;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 1px rgb(192, 192, 192);
 }
 
 .home {
