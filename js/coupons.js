@@ -1,4 +1,10 @@
 var couponData = [
+    { text: "WEB SHOP UPDATE", date: "2025-04-30T23:59:00Z" },
+    { text: "2071 BEAT ASG122", date: "2025-03-31T23:59:00Z" },
+    { text: "1T BLACK DRAGON 1032", date: "2025-03-31T23:59:00Z" },
+    { text: "WEB SHOP SP DEALS", date: "2025-03-31T23:59:00Z" },
+    { text: "PEACEOUTFEBRUARY", date: "2025-03-31T23:59:00Z" },
+    { text: "HEROSHOWDOWN", date: "2025-03-31T23:59:00Z" },
     { text: "FIRE N ICE25", date: "2025-03-31T23:59:00Z" },
     { text: "BIGGAMEDAY25", date: "2025-03-31T23:59:00Z" },
     { text: "NOSTEPONSNEK", date: "2025-02-28T23:59:00Z" },
