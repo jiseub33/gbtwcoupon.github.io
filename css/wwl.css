@@ -14,7 +14,9 @@ body header {
     position: fixed;
     top: 0;
     width: 100%;
+    background: #fff;
     border-bottom: 1px solid #e3e3e3;
+    z-index: 100;
 }
 
 body header .title {
@@ -80,6 +82,7 @@ body .content > div.active {
 
 /* 홈 */
 body .content .menu-home .round {
+    padding: 60px 0 0 0;
     margin: 20px auto;
     width: 90%;
 }
@@ -99,6 +102,7 @@ body .content .menu-home .round h1 span {
 
 body .content .menu-home .round .war {
     overflow: hidden;
+    margin: 20px auto;
     background: #fff;
     border-radius: 20px;
 }
@@ -108,16 +112,16 @@ body .content .menu-home .round .war .title {
     justify-content: space-between;
     position: relative;
     padding: 20px;
-    color: #fff;
+    background: #5f5f5f;
     font-size: 20px;
     font-weight: 600;
-    background: linear-gradient(90deg, rgba(0,95,159,1) 0%, rgba(0,144,242,1) 49%, rgba(248,111,100,1) 51%, rgba(253,83,146,1) 100%);
     box-sizing: border-box;
 }
 
 body .content .menu-home .round .war .title div.team p {
     display: inline-block;
     margin: 0;
+    color: #fff;
     font-size: 25px;
     line-height: 25px;
     vertical-align: top;
@@ -129,20 +133,126 @@ body .content .menu-home .round .war .title div.team img{
     width: 25px;
 }
 
-body .content .menu-home .round .war .title div.winorlose p {
-    margin: 0;
-    font-size: 15px;
-    line-height: 25px;
-}
-
-body .content .menu-home .round .war .team1-win::after {
-    content: "Winㅤlose";
+body .content .menu-home .round .war .title::after {
+    content: "매칭전";
     position: absolute;
     top: 50%;
     left: 50.5%;
     transform: translate(-50%,-50%);
     color: #fff;
     font-size: 15px;
+}
+
+body .content .menu-home .round .war .time {
+    display: none;
+    padding: 5px;
+    background: #f1f1f1;
+    text-align: center;
+    font-size: 12.5px;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+body .content .menu-home .round .war .info {
+    display: none;
+    padding: 20px 0;
+}
+
+body .content .menu-home .round .war .info div {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    margin: 5px auto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+body .content .menu-home .round .war .info div h1 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* 매칭분류 */
+body .content .menu-home .round .matched .title {
+    background: linear-gradient(90deg, rgba(0,95,159,1), rgba(0,144,242,1), rgba(0,95,159,1), rgba(0,144,242,1));
+    background-size: 400% 100%;
+    background-position: 100% 0%;
+    animation: war_background 5s normal linear 0s infinite;
+}
+
+body .content .menu-home .round .inbattle .title {
+    background: linear-gradient(90deg, rgba(248,111,100,1), rgba(253,83,146,1), rgba(248,111,100,1), rgba(253,83,146,1));
+    background-size: 400% 100%;
+    background-position: 100% 0%;
+    animation: war_background 5s normal linear 0s infinite;
+}
+
+body .content .menu-home .round .counting .title {
+    background: linear-gradient(90deg, rgba(37, 168, 85,1), rgba(33,235,107,1), rgba(37, 168, 85,1), rgba(33,235,107,1));
+    background-size: 400% 100%;
+    background-position: 100% 0%;
+    animation: war_background 5s normal linear 0s infinite;
+}
+
+@keyframes war_background {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: 90% 0%;
+    }
+}
+
+body .content .menu-home .round .counting .time {
+    display: block;
+}
+
+body .content .menu-home .round .matched .title::after {
+    content: "매칭완료";
+    color: #fff;
+}
+
+body .content .menu-home .round .inbattle .title::after {
+    content: "전투중";
+    color: #fff;
+}
+
+body .content .menu-home .round .counting .title::after {
+    content: "집계중";
+    color: #fff;
+}
+
+body .content .menu-home .round .team1_win .title {
+    background: linear-gradient(90deg, rgba(0,95,159,1) 0%, rgba(0,144,242,1) 49%, rgba(248,111,100,1) 51%, rgba(253,83,146,1) 100%);
+}
+
+body .content .menu-home .round .team1_win .title::after {
+    content: "Winㅤlose";
+    color: #fff;
+    left: 50.5%;
+}
+
+body .content .menu-home .round .team1_win .time,
+body .content .menu-home .round .team1_win .info {
+    display: block;
+}
+
+body .content .menu-home .round .team2_win .title {
+    background: linear-gradient(-90deg, rgba(0,95,159,1) 0%, rgba(0,144,242,1) 49%, rgba(248,111,100,1) 51%, rgba(253,83,146,1) 100%);
+}
+
+
+body .content .menu-home .round .team2_win .title::after {
+    content: "loseㅤWin";
+    color: #fff;
+    left: 49.5%;
+}
+
+body .content .menu-home .round .team2_win .time,
+body .content .menu-home .round .team2_win .info {
+    display: block;
 }
 
 /* 배너 */
@@ -186,6 +296,8 @@ body .content .menu-home .round .war .team1-win::after {
     display: flex;
     position: fixed;
     bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 100%;
     max-width: 500px;
     border-radius: 25px 25px 0 0;
