@@ -465,6 +465,7 @@ body .content .menu-ranking .allranking .alliance .title div.team img{
     background:#fff;
     font-family: 'Noto Sans KR', sans-serif;
     transition: none;
+    z-index: 100;
 }
 
 .menu button {

@@ -82,4 +82,22 @@
     .post .maintext p {
         color: #fff;
     }
+
+    /* wwl */
+    .wwl-title {
+        background: #323232;
+        border-bottom: 1px solid #1f1f1f;
+    }
+
+    body .content .menu-ranking .teamranking {
+        background: #323232;
+    }
+
+    .menu {
+        background: #323232;
+    }
+
+    .menu button {
+        color: #fff;
+    }
 }
