@@ -21,6 +21,7 @@ async function loadCSV() {
                     <p>${row.team1}</p>
                     <img src="images/wwl/alliance_logo/${row.team1}.png" alt="">
                 </div>
+                <div></div>
                 <div class="team">
                     <img src="images/wwl/alliance_logo/${row.team2}.png" alt="">
                     <p>${row.team2}</p>
@@ -57,10 +58,9 @@ async function loadCSV() {
         `;
 
         roundElement.appendChild(warDiv); // 해당 round에 추가
-        console.log(headers); // 헤더 배열 출력
-console.log(rows);    // 각 행 출력
-
-
+        document.querySelectorAll(".road").forEach(element => {
+            element.classList.remove("road");
+        });
     });
 }
 
