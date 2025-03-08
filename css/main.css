@@ -116,7 +116,7 @@ body > div.title {
 .ad:hover img,
 .deadline:hover img,
 .event:hover img {
-    scale: 1.1;
+    scale: 1;
 }
 
 .notice {
