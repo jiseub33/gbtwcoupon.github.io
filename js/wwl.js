@@ -45,11 +45,6 @@ async function loadCSV() {
                     <div>${row.score_team2}</div>
                 </div>
                 <div>
-                    <div>${row.people_team1}</div>
-                    <div>인원</div>
-                    <div>${row.people_team2}</div>
-                </div>
-                <div>
                     <div>${row.ranking_team1}</div>
                     <div>순위</div>
                     <div>${row.ranking_team2}</div>
