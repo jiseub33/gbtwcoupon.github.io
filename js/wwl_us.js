@@ -27,26 +27,26 @@ async function loadCSV() {
                     <p>${row.team2}</p>
                 </div>
             </div>
-            <div class="time">전투시간 | <span>${row.playtime}</span></div>
+            <div class="time">Battle Time | <span>${row.playtime}</span></div>
             <div class="info">
                 <div>
                     <div>${row.server_team1}</div>
-                    <div>서버</div>
+                    <div>Server</div>
                     <div>${row.server_team2}</div>
                 </div>
                 <div>
                     <div>${row.group_team1}</div>
-                    <div>그룹</div>
+                    <div>Group</div>
                     <div>${row.group_team2}</div>
                 </div>
                 <div>
                     <div>${row.score_team1}</div>
-                    <div>점수</div>
+                    <div>Score</div>
                     <div>${row.score_team2}</div>
                 </div>
                 <div>
                     <div>${row.ranking_team1}</div>
-                    <div>순위</div>
+                    <div>Ranking</div>
                     <div>${row.ranking_team2}</div>
                 </div>
             </div>

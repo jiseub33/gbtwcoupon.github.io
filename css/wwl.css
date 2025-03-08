@@ -375,6 +375,10 @@ body .content .menu-ranking .teamranking div div p {
     font-size: 12.5px;
 }
 
+body .content .menu-ranking .teamranking div div.us p {
+    font-size: 8px;
+}
+
 body .content .menu-ranking .allranking {
     margin: 20px auto;
     width: 90%;

@@ -1,0 +1,25 @@
+body .content .menu-home .round .war .title::after {
+    content: "Matching";
+}
+
+body .content .menu-home .round .matched .title::after,
+body .content .menu-home .round .matched_blue .title::after,
+body .content .menu-home .round .matched_red .title::after {
+    content: "Matched";
+}
+
+body .content .menu-home .round .inbattle .title::after {
+    content: "In Battle";
+}
+
+body .content .menu-home .round .counting .title::after {
+    content: "Counting";
+}
+
+body .content .menu-home .round .team1_win .title::after {
+    content: "Winㅤlose";
+}
+
+body .content .menu-home .round .team2_win .title::after {
+    content: "loseㅤWin";
+}
