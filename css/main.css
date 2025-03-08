@@ -79,10 +79,6 @@ body > div.title {
     font-size: 0;
 }
 
-.wwl {
-    height: 100px;
-}
-
 .ad:after {
     content: "ad";
     position: absolute;
