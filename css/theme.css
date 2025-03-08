@@ -89,6 +89,14 @@
         border-bottom: 1px solid #1f1f1f;
     }
 
+    body .content .menu-home .round .war .time {
+        background: #323232;
+    }
+
+    body .content .menu-home .round .war .info {
+        background: #323232;
+    }
+
     body .content .menu-ranking .teamranking {
         background: #323232;
     }
