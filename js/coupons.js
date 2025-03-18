@@ -1,4 +1,8 @@
 var couponData = [
+    { text: "SHAMROCKMYWORLD", date: "2025-04-30T23:59:00Z" },
+    { text: "SEEINGGREEN", date: "2025-04-30T23:59:00Z" },
+    { text: "VICTORYAWAITS", date: "2025-04-30T23:59:00Z" },
+    { text: "NEW LOOK NEW SHOP", date: "2025-04-30T23:59:00Z" },
     { text: "WEB SHOP UPDATE", date: "2025-04-30T23:59:00Z" },
     { text: "2071 BEAT ASG122", date: "2025-03-31T23:59:00Z" },
     { text: "1T BLACK DRAGON 1032", date: "2025-03-31T23:59:00Z" },
