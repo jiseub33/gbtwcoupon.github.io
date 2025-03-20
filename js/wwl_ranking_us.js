@@ -48,6 +48,9 @@ function appendToAllRanking(groupData) {
                     <p>${groupData.alliance}</p>
                     <img src="https://gbtwcoupon.jisby.com/images/wwl/alliance_logo/${groupData.alliance}.png" alt>
                 </div>
+                <div class="team">
+                    <p>${groupData.server}</p>
+                </div>
             </div>
         </div>
     `;
