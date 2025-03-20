@@ -363,6 +363,10 @@ body .content .menu-ranking .teamranking div div {
     justify-content: space-around;
 }
 
+body .content .menu-ranking .teamranking div:first-child div {
+    flex-direction: row-reverse;
+}
+
 body .content .menu-ranking .teamranking div div:nth-child(n+3) {
     border-top: 1px solid #5f5f5f;
 }
