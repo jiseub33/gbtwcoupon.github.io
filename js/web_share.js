@@ -21,12 +21,12 @@ document.addEventListener('DOMContentLoaded', () => {
                             text: currentLink.text,
                             url: currentLink.url
                         });
-                        console.log('공유 성공!');
+                        console.log('Share success!');
                     } catch (error) {
-                        console.error('공유 실패:', error);
+                        console.error('Sharing failed:', error);
                     }
                 } else {
-                    alert('이 브라우저에서는 Web Share API를 지원하지 않습니다.');
+                    alert('This browser does not support the Web Share API.');
                 }
             });
         }
