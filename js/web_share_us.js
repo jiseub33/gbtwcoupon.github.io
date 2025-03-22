@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     // 여러 링크 배열 (각각 다른 ID에 맞게 설정)
     const links = {
-        round1_ko: { title: 'WWL 5.0 ROUND1', text: 'WWL 5.0 리그A의 현황을 자세하고 빠르게 알아보세요!', url: 'https://gbtwcoupon.jisby.com/wwl#round1' },
-        round2_ko: { title: 'WWL 5.0 ROUND2', text: 'WWL 5.0 리그A의 현황을 자세하고 빠르게 알아보세요!', url: 'https://gbtwcoupon.jisby.com/wwl#round2' },
-        round3_ko: { title: 'WWL 5.0 ROUND3', text: 'WWL 5.0 리그A의 현황을 자세하고 빠르게 알아보세요!', url: 'https://gbtwcoupon.jisby.com/wwl#round3' }
+        round1_us: { title: 'WWL 5.0 ROUND1', text: 'Get detailed and fast updates on WWL 5.0 League A!', url: 'https://gbtwcoupon.jisby.com/us/wwl#round1' },
+        round2_us: { title: 'WWL 5.0 ROUND2', text: 'Get detailed and fast updates on WWL 5.0 League A!', url: 'https://gbtwcoupon.jisby.com/us/wwl#round2' },
+        round3_us: { title: 'WWL 5.0 ROUND3', text: 'Get detailed and fast updates on WWL 5.0 League A!', url: 'https://gbtwcoupon.jisby.com/us/wwl#round3' }
     };
 
     // 각 버튼에 대한 클릭 이벤트 리스너 등록
