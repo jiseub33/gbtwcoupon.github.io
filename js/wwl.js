@@ -56,6 +56,15 @@ async function loadCSV() {
         document.querySelectorAll(".road").forEach(element => {
             element.classList.remove("road");
         });
+
+        if (window.location.hash) {
+            const targetId = window.location.hash.substring(1); // '#' 제거
+            const target = document.getElementById(targetId);
+            
+            if (target) {
+                target.scrollIntoView({ behavior: "smooth"});
+            }
+        }
     });
 }
 
