@@ -89,6 +89,10 @@
         border-bottom: 1px solid #1f1f1f;
     }
 
+    body .content .menu-home .round h1 button svg {
+        color: #fff;
+    }
+
     body .content .menu-home .round .war .time {
         background: #1f1f1f;
     }
