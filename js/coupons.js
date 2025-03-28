@@ -1,4 +1,6 @@
 var couponData = [
+    { text: "WEB SHOP GLOW UP", date: "2025-04-30T23:59:00Z" },
+    { text: "NEW SHOP NEW DROPS", date: "2025-04-30T23:59:00Z" },
     { text: "SHAMROCKMYWORLD", date: "2025-04-30T23:59:00Z" },
     { text: "SEEINGGREEN", date: "2025-04-30T23:59:00Z" },
     { text: "VICTORYAWAITS", date: "2025-04-30T23:59:00Z" },
