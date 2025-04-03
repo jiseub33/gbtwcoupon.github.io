@@ -1,4 +1,8 @@
 var couponData = [
+    { text: "ICEMAN FOREVER", date: "2025-04-16T23:59:00Z" },
+    { text: "SECRETFLEETCODE", date: "2025-05-31T23:59:00Z" },
+    { text: "REVAMPED WEB SHOP", date: "2025-04-30T23:59:00Z" },
+    { text: "FOOLPROOF ALLYEAR", date: "2025-05-31T23:59:00Z" },
     { text: "WEB SHOP GLOW UP", date: "2025-04-30T23:59:00Z" },
     { text: "NEW SHOP NEW DROPS", date: "2025-04-30T23:59:00Z" },
     { text: "SHAMROCKMYWORLD", date: "2025-04-30T23:59:00Z" },
