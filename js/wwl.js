@@ -52,6 +52,7 @@ async function loadCSV() {
             </div>
         `;
 
+        //진입애니메이션
         roundElement.appendChild(warDiv); // 해당 round에 추가
         document.querySelectorAll(".road").forEach(element => {
             element.classList.remove("road");

@@ -11,8 +11,8 @@ async function loadCSV() {
     data.forEach(groupData => appendToGroup(groupData));
 
     // all_ranking 기준으로 정렬 후 allranking ID 컨테이너에 추가
-    const sortedData = data.sort((a, b) => a.all_ranking - b.all_ranking);
-    sortedData.forEach(groupData => appendToAllRanking(groupData));
+    const sortedAll = data.sort((a, b) => a.all_ranking - b.all_ranking);
+    sortedAll.forEach(groupData => appendToAllRanking(groupData));
 }
 
 // 데이터를 그룹별로 추가하는 함수

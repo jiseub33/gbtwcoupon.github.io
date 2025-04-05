@@ -7,12 +7,21 @@ async function loadCSV() {
     const headers = rows.shift(); // 첫 번째 행은 헤더
     const data = rows.map(row => Object.fromEntries(row.map((cell, i) => [headers[i], cell]))); // CSV 데이터 객체로 변환
 
-    // 데이터를 그룹별로 추가
-    data.forEach(groupData => appendToGroup(groupData));
+    data.forEach(d => {
+        d.all_ranking = Number(d.all_ranking);
+        d.group_ranking = Number(d.group_ranking);
+    });
+
+    // 그룹별로 나누고 정렬한 뒤 추가
+    const blueGroup = data.filter(d => d.group === 'BLUE').sort((a, b) => a.group_ranking - b.group_ranking);
+    const redGroup = data.filter(d => d.group === 'RED').sort((a, b) => a.group_ranking - b.group_ranking);
+
+    blueGroup.forEach(groupData => appendToGroup(groupData));
+    redGroup.forEach(groupData => appendToGroup(groupData));
 
     // all_ranking 기준으로 정렬 후 allranking ID 컨테이너에 추가
-    const sortedData = data.sort((a, b) => a.all_ranking - b.all_ranking);
-    sortedData.forEach(groupData => appendToAllRanking(groupData));
+    const sortedAll = data.sort((a, b) => a.all_ranking - b.all_ranking);
+    sortedAll.forEach(groupData => appendToAllRanking(groupData));
 }
 
 // 데이터를 그룹별로 추가하는 함수
