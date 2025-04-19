@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
         round1_us: { title: 'WWL 5.0 ROUND1', text: 'Get detailed and fast updates on WWL 5.0 League A!', url: 'https://gbtwcoupon.jisby.com/us/wwl#round1' },
         round2_us: { title: 'WWL 5.0 ROUND2', text: 'Get detailed and fast updates on WWL 5.0 League A!', url: 'https://gbtwcoupon.jisby.com/us/wwl#round2' },
         round3_us: { title: 'WWL 5.0 ROUND3', text: 'Get detailed and fast updates on WWL 5.0 League A!', url: 'https://gbtwcoupon.jisby.com/us/wwl#round3' },
-        round3_us: { title: 'WWL 5.0 ROUND4', text: 'Get detailed and fast updates on WWL 5.0 League A!', url: 'https://gbtwcoupon.jisby.com/us/wwl#round4' },
-        round3_us: { title: 'WWL 5.0 ROUND5', text: 'Get detailed and fast updates on WWL 5.0 League A!', url: 'https://gbtwcoupon.jisby.com/us/wwl#round5' }
+        round4_us: { title: 'WWL 5.0 ROUND4', text: 'Get detailed and fast updates on WWL 5.0 League A!', url: 'https://gbtwcoupon.jisby.com/us/wwl#round4' },
+        round5_us: { title: 'WWL 5.0 ROUND5', text: 'Get detailed and fast updates on WWL 5.0 League A!', url: 'https://gbtwcoupon.jisby.com/us/wwl#round5' }
     };
 
     // 각 버튼에 대한 클릭 이벤트 리스너 등록
