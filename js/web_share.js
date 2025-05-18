@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         round3_ko: { title: 'WWL 5.0 ROUND3', text: 'WWL 5.0 리그A의 현황을 자세하고 빠르게 알아보세요!', url: 'https://gbtwcoupon.jisby.com/wwl#round3' },
         round4_ko: { title: 'WWL 5.0 ROUND4', text: 'WWL 5.0 리그A의 현황을 자세하고 빠르게 알아보세요!', url: 'https://gbtwcoupon.jisby.com/wwl#round4' },
         round5_ko: { title: 'WWL 5.0 ROUND5', text: 'WWL 5.0 리그A의 현황을 자세하고 빠르게 알아보세요!', url: 'https://gbtwcoupon.jisby.com/wwl#round5' },
-        final: { title: 'WWL 5.0 Fianl', text: 'WWL 5.0 리그A의 현황을 자세하고 빠르게 알아보세요!', url: 'https://gbtwcoupon.jisby.com/wwl#final' }
+        round6_ko: { title: 'WWL 5.0 Fianl', text: 'WWL 5.0 리그A의 현황을 자세하고 빠르게 알아보세요!', url: 'https://gbtwcoupon.jisby.com/wwl#round6' }
     };
 
     // 각 버튼에 대한 클릭 이벤트 리스너 등록
