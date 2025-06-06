@@ -63,9 +63,9 @@ function appendToAllRanking(groupData) {
             </div>
         </div>
     `;
-
+    
     // 해당 div를 allranking 컨테이너에 추가
-    container.appendChild(rankDiv);
+    // container.appendChild(rankDiv);
 }
 
 // 페이지가 로드될 때 CSV 데이터를 불러오기
