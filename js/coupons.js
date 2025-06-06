@@ -1,4 +1,7 @@
 var couponData = [
+    { text: "VICTORYACHIEVED", date: "2025-07-31T23:59:00Z" },
+    { text: "REMEMBERTHEHEROES", date: "2025-06-30T23:59:00Z" },
+    { text: "FINAL DESTINATION", date: "2025-06-30T23:59:00Z" },
     { text: "THANKYOU2025", date: "2025-12-31T23:59:00Z" },
     { text: "MUMS THE WORD", date: "2025-06-30T23:59:00Z" },
     { text: "ROGUESQUADRON", date: "2025-06-30T23:59:00Z" },
