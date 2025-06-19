@@ -1,4 +1,6 @@
 var couponData = [
+    { text: "DADJOKESACTIVATED", date: "2025-07-31T23:59:00Z" },
+    { text: "PINOYPRIDE2025", date: "2025-07-31T23:59:00Z" },
     { text: "VICTORYACHIEVED", date: "2025-07-31T23:59:00Z" },
     { text: "REMEMBERTHEHEROES", date: "2025-06-30T23:59:00Z" },
     { text: "FINAL DESTINATION", date: "2025-06-30T23:59:00Z" },
