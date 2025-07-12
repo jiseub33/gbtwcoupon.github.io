@@ -1,4 +1,8 @@
 var couponData = [
+    { text: "EAGLESCREECH", date: "2025-08-31T23:59:00Z" },
+    { text: "MAPLE LEAF FLEET", date: "2025-08-31T23:59:00Z" },
+    { text: "1ST MAX LEVEL JFK", date: "2025-07-31T23:59:00Z" },
+    { text: "PULLUPINSTYLE", date: "2025-07-31T23:59:00Z" },
     { text: "DADJOKESACTIVATED", date: "2025-07-31T23:59:00Z" },
     { text: "PINOYPRIDE2025", date: "2025-07-31T23:59:00Z" },
     { text: "VICTORYACHIEVED", date: "2025-07-31T23:59:00Z" },
