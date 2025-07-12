@@ -96,6 +96,11 @@ svg:nth-child(1) {
     line-height: 30px;
 }
 
+.post .maintext p.policy {
+    color: #2f2f2f;
+    font-size: 10px;
+}
+
 .post .maintext p a {
     color: #0090f2;
     text-decoration: none;
