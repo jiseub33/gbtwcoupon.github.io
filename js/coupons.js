@@ -1,4 +1,7 @@
 var couponData = [
+    { text: "HEAT WAVE WARNING", date: "2025-09-30T23:59:00Z" },
+    { text: "WORLD LEAGUE HERE", date: "2025-08-31T23:59:00Z" },
+    { text: "SHARKBAIT HOHAHA", date: "2025-08-31T23:59:00Z" },
     { text: "EAGLESCREECH", date: "2025-08-31T23:59:00Z" },
     { text: "MAPLE LEAF FLEET", date: "2025-08-31T23:59:00Z" },
     { text: "1ST MAX LEVEL JFK", date: "2025-07-31T23:59:00Z" },
