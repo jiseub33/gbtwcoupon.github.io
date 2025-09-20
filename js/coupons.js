@@ -1,4 +1,10 @@
 var couponData = [
+    { text: "AIMHIGH78", date: "2025-10-31T23:59:00Z" },
+    { text: "SKYCHALLENGE", date: "2025-10-31T23:59:00Z" },
+    { text: "WLS1 COMING SOON", date: "2025-10-31T23:59:00Z" },
+    { text: "SUNSETSEASON", date: "2025-09-30T23:59:00Z" },
+    { text: "SHARE THIS CODE 2", date: "2025-09-30T23:59:00Z" },
+    { text: "FEET FIRST FAM", date: "2025-09-30T23:59:00Z" },
     { text: "HEAT WAVE WARNING", date: "2025-09-30T23:59:00Z" },
     { text: "WORLD LEAGUE HERE", date: "2025-08-31T23:59:00Z" },
     { text: "SHARKBAIT HOHAHA", date: "2025-08-31T23:59:00Z" },
