@@ -1,4 +1,8 @@
 var couponData = [
+    { text: "SPOOKYSEASON 2025", date: "2025-11-30T23:59:00Z" },
+    { text: "2T BLACK DRAGON 1032", date: "2025-11-30T23:59:00Z" },
+    { text: "LUNARFLEET", date: "2025-11-30T23:59:00Z" },
+    { text: "CAFFEINCAPTAIN", date: "2025-10-31T23:59:00Z" },
     { text: "AIMHIGH78", date: "2025-10-31T23:59:00Z" },
     { text: "SKYCHALLENGE", date: "2025-10-31T23:59:00Z" },
     { text: "WLS1 COMING SOON", date: "2025-10-31T23:59:00Z" },
