@@ -1,4 +1,9 @@
 var couponData = [
+    { text: "RAPTORSHOW", date: "2025-12-31T23:59:00Z" },
+    { text: "SALUTEVETS", date: "2025-12-31T23:59:00Z" },
+    { text: "ISOLVEDFOR24", date: "2025-12-31T23:59:00Z" },
+    { text: "NEONNIGHTMARES", date: "2025-11-30T23:59:00Z" },
+    { text: "HAUNTEDHARBOR", date: "2025-11-30T23:59:00Z" },
     { text: "SPOOKYSEASON 2025", date: "2025-11-30T23:59:00Z" },
     { text: "2T BLACK DRAGON 1032", date: "2025-11-30T23:59:00Z" },
     { text: "LUNARFLEET", date: "2025-11-30T23:59:00Z" },
