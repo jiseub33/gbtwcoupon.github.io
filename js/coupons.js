@@ -1,4 +1,6 @@
 var couponData = [
+    { text: "FEELING LUCKY", date: "2026-01-31T23:59:00Z" },
+    { text: "ROASTEAGLE", date: "2025-12-31T23:59:00Z" },
     { text: "RAPTORSHOW", date: "2025-12-31T23:59:00Z" },
     { text: "SALUTEVETS", date: "2025-12-31T23:59:00Z" },
     { text: "ISOLVEDFOR24", date: "2025-12-31T23:59:00Z" },
