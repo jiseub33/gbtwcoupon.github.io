@@ -1,4 +1,8 @@
 var couponData = [
+    { text: "STRIKE THAT BLITZ", date: "2026-02-28T23:59:00Z" },
+    { text: "YOU DECIDE", date: "2026-02-28T23:59:00Z" },
+    { text: "TAKE A BITE", date: "2026-02-28T23:59:00Z" },
+    { text: "OPERATION2026", date: "2026-01-31T23:59:00Z" },
     { text: "HOLLYJOLLYROGER", date: "2026-01-31T23:59:00Z" },
     { text: "ALLIANCEPOWER", date: "2026-01-31T23:59:00Z" },
     { text: "FEELING LUCKY", date: "2026-01-31T23:59:00Z" },
