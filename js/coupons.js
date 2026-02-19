@@ -1,4 +1,8 @@
 var couponData = [
+    { text: "GBTW2026LNY", date: "2026-03-31T23:59:00Z" },
+    { text: "BRRT AT YOUR DATE", date: "2026-03-31T23:59:00Z" },
+    { text: "ASG DISGUISE", date: "2026-03-31T23:59:00Z" },
+    { text: "PUZZLE THAT OUT", date: "2026-02-28T23:59:00Z" },
     { text: "STRIKE THAT BLITZ", date: "2026-02-28T23:59:00Z" },
     { text: "YOU DECIDE", date: "2026-02-28T23:59:00Z" },
     { text: "TAKE A BITE", date: "2026-02-28T23:59:00Z" },
