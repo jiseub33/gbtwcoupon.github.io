@@ -1,4 +1,7 @@
 var couponData = [
+    { text: "SPACE WARFARE", date: "2026-04-30T23:59:00Z" },
+    { text: "SUB OVER WATER", date: "2026-04-30T23:59:00Z" },
+    { text: "WING ME UP", date: "2026-04-30T23:59:00Z" },
     { text: "3T BLACK DRAGON 1032", date: "2026-03-31T23:59:00Z" },
     { text: "FEB UPDATE26", date: "2026-03-31T23:59:00Z" },
     { text: "GBTW2026LNY", date: "2026-03-31T23:59:00Z" },
