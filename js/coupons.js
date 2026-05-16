@@ -1,4 +1,9 @@
 var couponData = [
+    { text: "DISCO WITH US 2026", date: "2026-06-30T23:59:00Z" },
+    { text: "MOMS A10", date: "2026-06-30T23:59:00Z" },
+    { text: "JACKALORIAN", date: "2026-06-30T23:59:00Z" },
+    { text: "BASE MAKEOVER", date: "2026-05-31T23:59:00Z" },
+    { text: "A10 FRENZY", date: "2026-05-31T23:59:00Z" },
     { text: "SPACE WARFARE", date: "2026-04-30T23:59:00Z" },
     { text: "SUB OVER WATER", date: "2026-04-30T23:59:00Z" },
     { text: "WING ME UP", date: "2026-04-30T23:59:00Z" },
